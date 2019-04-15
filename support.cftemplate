@@ -46,6 +46,8 @@ This is an add-on to the SaaS Passport base terms.
 
         \Refund Fees for Unresponsive Support\  If <Provider> fails to meet {Responsiveness} for [Support SLA Lookback Periods] <Billing Periods> in a row, and <Customer> ends this agreement at the end of those <Billing Periods>, citing poor support responsiveness, <Provider> agrees to refund any <Prepaid Fees>.  If <Provider> billed <Fees> for support separately, <Provider> also agrees to refund all <Fees> that <Provider> paid for support in the [Support SLA Lookback Periods] <Billing Periods>.
 
+    \Agreed Legal Remedy\  <Customer>'s only legal remedy for failure to meet {Responsiveness} will be a refund under {Refund Fees for Unresponsive Support}.
+
     \Definitions\
 
         \\  The following terms mean the same in this add-on as in the base terms:

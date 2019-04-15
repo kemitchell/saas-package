@@ -2,7 +2,7 @@
 
     \Deal Packet\
 
-        \Documents\  These ""Base Terms"", together with an ""Order"" referencing them, make up a ""Deal Packet"".  The <Deal Packet> may also include other terms referenced on the <Order>, such as a ""Rider"" and one or more ""Add-On"" documents.
+        \Documents\  These ""Base Terms"", together with an ""Order Form"" referencing them, make up a ""Deal Packet"".  The <Deal Packet> may also include other terms referenced on the <Order Form>, such as a ""Rider"" and one or more ""Add-On"" documents.
 
         \Conflicts\  Where documents in the <Deal Packet> conflict, the <Rider> takes precedence over any <Add-On>, and any <Add-On> takes precedence over these <Base Terms>.
 
@@ -42,7 +42,7 @@
 
         \Limit Validation Code in the Software\  <Provider> agrees not to include any code that automatically disables <Software Features> based on monitoring of <Use Limits>.  <Provider> may include code that monitors <Use Limits>, validates administrative <Access Credentials>, and reports results back to <Provider> systems.
 
-        \Bill Customer\  <Provider> agrees to bill <Customer> <Fees> for the <Service> as agreed on the <Order>.
+        \Bill Customer\  <Provider> agrees to bill <Customer> <Fees> for the <Service> as agreed on the <Order Form>.
 
         \Protect Customer from Liability\  So long as <Customer> has paid all <Fees> as required by this agreement:
 
@@ -56,13 +56,13 @@
 
     \Customer's Obligations\
 
-        \Pay Fees\  <Customer> agrees to pay all <Fees>, as agreed on the <Order>.  <Customer> agrees to pay all tax on fees, except tax <Provider> owes on income.
+        \Pay Fees\  <Customer> agrees to pay all <Fees>, as agreed on the <Order Form>.  <Customer> agrees to pay all tax on fees, except tax <Provider> owes on income.
 
         \Handle Tax Withholding\  If <Customer> operates in a different country than <Provider>, and local law requires <Customer> to withhold taxes on fees paid under this agreement:
 
             \\  <Customer> agrees to make the required tax withholding payments for <Provider> by deducting the right amounts from payments to <Provider> and paying them to the proper tax authorities.
 
-            \\  <Customer> agrees to increase the amount of each payment made under this agreement, to offset withholding, so that <Provider> receives the full amount owed according to the <Order>.
+            \\  <Customer> agrees to increase the amount of each payment made under this agreement, to offset withholding, so that <Provider> receives the full amount owed according to the <Order Form>.
 
             \\  <Customer> agrees to provide <Provider> relevant official tax documentation and tax receipts showing that withholding was required, and that proper withholding payment has been made, as soon as possible after making any withholding payment.
 
@@ -106,7 +106,7 @@
 
         \Existing and Outside IP\  This agreement does not change ownership of any <Intellectual Property Right> held by either side before entering this agreement, or created outside the scope of this agreement.
 
-        \Deliverables\  <Customer> will own every <Intellectual Property Right> in work created in the scope of this agreement designated ""Proprietary Deliverables"" in the <Order>.  Subject to {Existing and Outside IP}, <Proprietary Deliverables> are "work made for hire" to the extent possible under copyright law.  <Provider> assigns every <Intellectual Property Right> in <Proprietary Deliverables> that cannot be work made for hire to <Customer>, and waives all moral rights in <Proprietary Deliverables>.  <Customer> agrees that <Provider> may develop work with functionality similar to that of <Proprietary Deliverables> for other customers, or to release as open source.
+        \Deliverables\  <Customer> will own every <Intellectual Property Right> in work created in the scope of this agreement designated ""Proprietary Deliverables"" in the <Order Form>.  Subject to {Existing and Outside IP}, <Proprietary Deliverables> are "work made for hire" to the extent possible under copyright law.  <Provider> assigns every <Intellectual Property Right> in <Proprietary Deliverables> that cannot be work made for hire to <Customer>, and waives all moral rights in <Proprietary Deliverables>.  <Customer> agrees that <Provider> may develop work with functionality similar to that of <Proprietary Deliverables> for other customers, or to release as open source.
 
     \Changes\
 
@@ -114,7 +114,7 @@
 
             \\  <Customer> may end this agreement at the end of a <Billing Period> by giving <Notice> at least one full <Billing Period> in advance.
 
-            \\  If the <Order> describes a pricing structure for higher <Use Limits>, <Customer> may increase its <Use Limits> within that pricing structure at any time, by <Notice>.  <Customer> increases to <Use Limits> take effect as soon as <Customer> pays any added <Fees>.
+            \\  If the <Order Form> describes a pricing structure for higher <Use Limits>, <Customer> may increase its <Use Limits> within that pricing structure at any time, by <Notice>.  <Customer> increases to <Use Limits> take effect as soon as <Customer> pays any added <Fees>.
 
         \Changes Provider May Make\
 
@@ -184,7 +184,7 @@
 
         \Government Procurement\  The <Service> is commercial computer software, and the <Documentation> is commercial computer software documentation.  All were developed exclusively at private expense.  If <Customer>'s procurement is subject to Federal Acquisition Regulation 12.212 or Defense Federal Acquisition Regulation Supplement 227.7202, <Customer>'s rights will be only those stated in this agreement.
 
-        \Whole Agreement\  Both sides intend the <Order> and these terms as the final, complete, and only expression of their terms about use of the <Service> and related support services.  However, this agreement does not affect the terms of any separate nondisclosure or confidentiality agreement <Provider> and <Customer> may have.
+        \Whole Agreement\  Both sides intend the <Order Form> and these terms as the final, complete, and only expression of their terms about use of the <Service> and related support services.  However, this agreement does not affect the terms of any separate nondisclosure or confidentiality agreement <Provider> and <Customer> may have.
 
         \Enforcement\  Only <Provider> and <Customer> may enforce this agreement.
 
@@ -233,7 +233,7 @@
 
         \\  ""Documentation"" means the documentation that <Provider> publishes for the <Service>.
 
-        \\  ""Fees"" means all fees agreed in the <Order>.
+        \\  ""Fees"" means all fees agreed in the <Order Form>.
 
         \\  ""Feature Set"" means all <Software Features> described in the <Documentation> on the date of this agreement.
 
@@ -257,7 +257,7 @@
 
         \\  ""San Francisco Courts"" means the California state courts sitting in San Francisco or the United States District Court for the Northern District of California.
 
-        \\  ""Service"" means the service identified on the <Order>.
+        \\  ""Service"" means the service identified on the <Order Form>.
 
         \\  ""Software Features"" means functions of the <Service> described in the <Documentation>.
 

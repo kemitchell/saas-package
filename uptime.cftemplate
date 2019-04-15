@@ -2,8 +2,8 @@
 
         \Service-Level Agreement\  While this agreement continues, so long as <Customer>'s use of the <Service> remains within the <Use Limits>, <Provider> agrees to host the <Service> with <Uptime> of no less than [Uptime Commitment].
 
-        # From Order Form: Uptime SLA Credit Schema (default: see add-on)
-        \Give Credits for Low Uptime\  <Provider> agrees to credit <Customer>'s account on <Notice> and verification that <Provider> failed to provide service according to {Service-Level Agreement} in the current <Billing Period> or any of the [Uptime SLA Lookback Periods] prior <Billing Periods>, according to the <Order Form>.  If the <Order Form> does not list credits for low <Uptime>, <Provider> agrees to credit <Customer>'s account:
+        # From Rider: Uptime SLA Credit Schema (default: see add-on)
+        \Give Credits for Low Uptime\  <Provider> agrees to credit <Customer>'s account on <Notice> and verification that <Provider> failed to provide service according to {Service-Level Agreement} in the current <Billing Period> or any of the [Uptime SLA Lookback Periods] prior <Billing Periods>, according to the <Rider>.  If the <Rider> does not list credits for low <Uptime>, <Provider> agrees to credit <Customer>'s account:
 
             \\  [First Uptime SLA Credit Percentage] of <Service Fees> for any <Billing Period> with <Uptime> between zero and one percentage point less than the <Uptime Commitment>
 
@@ -23,8 +23,8 @@
     ""Customer"", 
     ""Fees"", 
     ""Notice"", 
-    ""Order Form"", 
     ""Prepaid Fees"", 
     ""Provider"", 
+    ""Rider"", 
     ""Service"", 
     ""Use Limits"".

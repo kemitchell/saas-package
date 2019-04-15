@@ -2,17 +2,17 @@
 
         \Support\  <Provider> agrees to respond to ""Support Requests"" from <Customer Personnel> about configuration of, use of, and problems with the <Service>.
 
-        # From Order Form: Support Channels (default: e-mail)
-        \Channels\  <Provider> agrees to respond to <Support Requests> that <Customer Personnel> send to the ""Support Channels"" listed on the <Order Form>.  If the <Order Form> does not list <Support Channels>, then <Provider> agrees to respond to <Support Requests> that <Customer Personnel> send via e-mail.
+        # From Rider: Support Channels (default: e-mail)
+        \Channels\  <Provider> agrees to respond to <Support Requests> that <Customer Personnel> send to the ""Support Channels"" listed on the <Rider>.  If the <Rider> does not list <Support Channels>, then <Provider> agrees to respond to <Support Requests> that <Customer Personnel> send via e-mail.
 
         # TODO: designated support contacts
 
-        \Hours\  <Provider> agrees to respond to <Support Requests> during the ""Support Hours"" listed on the <Order Form>.  If the <Order Form> does not list <Support Hours>, then <Provider> agrees to respond to <Support Requests> during <Business Hours>.
+        \Hours\  <Provider> agrees to respond to <Support Requests> during the ""Support Hours"" listed on the <Rider>.  If the <Rider> does not list <Support Hours>, then <Provider> agrees to respond to <Support Requests> during <Business Hours>.
 
-        # From Order Form: Critical Support Requests (default)
-        # From Order Form: Urgent Support Requests (default)
-        # From Order Form: Regular Support Requests (default: not Critical Support Requests or Urgent Support Requests)
-        \Support Request Triage\  Unless the <Order Form> defines these terms differently:
+        # From Rider: Critical Support Requests (default)
+        # From Rider: Urgent Support Requests (default)
+        # From Rider: Regular Support Requests (default: not Critical Support Requests or Urgent Support Requests)
+        \Support Request Triage\  Unless the <Rider> defines these terms differently:
 
             \\  ""Critical Support Requests"" are <Support Requests> to that report:
 
@@ -26,7 +26,7 @@
 
             \\  ""Regular Support Requests"" are all other <Support Requests>.
 
-        \Responsiveness\  <Provider> agrees to respond to <Support Requests> within the times listed on the <Order Form>.  If the <Order Form> does not list response times for support requests, <Provider> agrees to respond to <Support Requests> during <Support Hours> as follows:
+        \Responsiveness\  <Provider> agrees to respond to <Support Requests> within the times listed on the <Rider>.  If the <Rider> does not list response times for support requests, <Provider> agrees to respond to <Support Requests> during <Support Hours> as follows:
 
             \\  For <Critical Support Requests>:
 
@@ -55,10 +55,10 @@
             \\  ""Data Compromise""
             \\  ""Feature Set""
             \\  ""Fees""
-            \\  ""Order Form""
             \\  ""Prepaid Fees""
             \\  ""Provider""
             \\  ""Provider's Country""
+            \\  ""Rider""
             \\  ""Service""
             \\  ""Users""
 

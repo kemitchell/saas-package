@@ -2,7 +2,7 @@
 
     \Deal Packet\
 
-        \Documents\  These ""Base Terms"", together with an ""Order Form"" referencing them, make up a ""Deal Packet"".  The <Deal Packet> may also include other terms referenced on the <Order Form>, such as a ""Rider"" and one or more ""Add-On"" documents.
+        \Documents\  These ""Base Terms"", together with an ""Order Form"" and ""Rider"" referencing them, make up a ""Deal Packet"".  The <Deal Packet> may also include one or more ""Add-On"" documents referenced by the <Rider>.
 
         \Conflicts\  Where documents in the <Deal Packet> conflict, the <Rider> takes precedence over any <Add-On>, and any <Add-On> takes precedence over these <Base Terms>.
 
@@ -42,6 +42,7 @@
 
         \Limit Validation Code in the Software\  <Provider> agrees not to include any code that automatically disables <Software Features> based on monitoring of <Use Limits>.  <Provider> may include code that monitors <Use Limits>, validates administrative <Access Credentials>, and reports results back to <Provider> systems.
 
+        # From Order Form: Billing
         \Bill Customer\  <Provider> agrees to bill <Customer> <Fees> for the <Service> as agreed on the <Order Form>.
 
         \Protect Customer from Liability\  So long as <Customer> has paid all <Fees> as required by this agreement:
@@ -114,6 +115,7 @@
 
             \\  <Customer> may end this agreement at the end of a <Billing Period> by giving <Notice> at least one full <Billing Period> in advance.
 
+            # From Order Form: pricing structure (optional)
             \\  If the <Order Form> describes a pricing structure for higher <Use Limits>, <Customer> may increase its <Use Limits> within that pricing structure at any time, by <Notice>.  <Customer> increases to <Use Limits> take effect as soon as <Customer> pays any added <Fees>.
 
         \Changes Provider May Make\
@@ -230,6 +232,7 @@
 
         \\  ""Documentation"" means the documentation that <Provider> publishes for the <Service>.
 
+        # From Order Form: Fees
         \\  ""Fees"" means all fees agreed in the <Order Form>.
 
         \\  ""Feature Set"" means all <Software Features> described in the <Documentation> on the date of this agreement.

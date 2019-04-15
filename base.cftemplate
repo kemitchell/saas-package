@@ -252,9 +252,13 @@
 
         \\  ""Prepaid Fees"" means <Fees> <Customer> prepaid for <Billing Periods> yet to begin.
 
-        \\  ""Provider's Jurisdictions"" means the courts of the nation and any national subdivision of the address <Provider> gives with its signature to the <Order Form>.
+        \\  ""Provider's Given Address"" means the address <Provider> gives with its signature to the <Order Form>.
 
-        \\  ""Provider's Local Courts"" means the courts of <Provider's Jurisdictions>.
+        \\  ""Provider's Country"" means the country of <Provider's Given Address>.
+
+        \\  ""Provider's National Subdivision"" means the state or other national subdivision of <Provider's Given Address>, if any.
+
+        \\  ""Provider's Local Courts"" means the courts of <Provider's Country>, as well as the courts of <Provider's National Subdivision>, if any, that are located nearest <Provider's Given Address>.
 
         \\  ""Service"" means the service identified on the <Order Form>.
 

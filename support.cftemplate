@@ -1,0 +1,66 @@
+This is an add-on to the SaaS Passport base terms.
+
+    \Provide Support\  Instead of the basic technical support obligation under the SaaS Passport base terms, <Provider> agrees to provide technical support under the terms of this ad-on.
+
+        \Support\  <Provider> agrees to respond to ""Support Requests"" from <Customer Personnel> about configuration of, use of, and problems with the <Service>.
+
+        # From Order Form: Support Channels (default: e-mail)
+        \Channels\  <Provider> agrees to respond to <Support Requests> that <Customer Personnel> send to the ""Support Channels"" listed on the <Order Form>.  If the <Order Form> does not list <Support Channels>, then <Provider> agrees to respond to <Support Requests> that <Customer Personnel> send via e-mail.
+
+        # TODO: designated support contacts
+
+        \Hours\  <Provider> agrees to respond to <Support Requests> during the ""Support Hours"" listed on the <Order Form>.  If the <Order Form> does not list <Support Hours>, then <Provider> agrees to respond to <Support Requests> during <Business Hours>.
+
+        # From Order Form: Critical Support Requests (default)
+        # From Order Form: Urgent Support Requests (default)
+        # From Order Form: Regular Support Requests (default: not Critical Support Requests or Urgent Support Requests)
+        \Support Request Triage\  Unless the <Order Form> defines these terms differently:
+
+            \\  ""Critical Support Requests"" are <Support Requests> to that report:
+
+                \\  systems providing the <Service> are down or unresponsive
+
+                \\  <Users> cannot use any part of the <Feature Set>
+
+                \\  the <Service> is under imminent threat of malicious technical attack or <Data Compromise>
+
+            \\  ""Urgent Support Requests"" are <Support Requests> that report substantial loss of functionality or responsiveness of the <Service>.
+
+            \\  ""Regular Support Requests"" are all other <Support Requests>.
+
+        \Responsiveness\  <Provider> agrees to respond to <Support Requests> within the times listed on the <Order Form>.  If the <Order Form> does not list response times for support requests, <Provider> agrees to respond to <Support Requests> during <Support Hours> as follows:
+
+            \\  For <Critical Support Requests>:
+
+                \\  Respond [Critical Response Time].
+
+                \\  Update on status [Critical Update Interval].
+
+            \\  For <Urgent Support Requests>:
+
+                \\  Respond [Urgent Response Time].
+
+                \\  Update on status [Urgent Update Interval], and provide a solution [Urgent Solution Time].
+
+            \\  For <Regular Support Requests>:  Respond [Regular Response Time], update on status [Regular Update Interval], and provide a solution [Regular Solution Time].
+
+        \Refund Fees for Unresponsive Support\  If <Provider> fails to meet {Responsiveness} for [Support SLA Lookback Periods] <Billing Periods> in a row, and <Customer> ends this agreement at the end of those <Billing Periods>, citing poor support responsiveness, <Provider> agrees to refund any <Prepaid Fees>.  If <Provider> billed <Fees> for support separately, <Provider> also agrees to refund all <Fees> that <Provider> paid for support in the [Support SLA Lookback Periods] <Billing Periods>.
+
+    \Definitions\
+
+        \\  The following terms mean the same in this add-on as in the base terms:
+
+            \\  ""Customer Personnel""
+            \\  ""Customer""
+            \\  ""Data Compromise""
+            \\  ""Feature Set""
+            \\  ""Fees""
+            \\  ""Order Form""
+            \\  ""Prepaid Fees""
+            \\  ""Provider""
+            \\  ""Provider's Country""
+            \\  ""Service""
+            \\  ""Users""
+
+        \\  ""Business Day"" means a day other than a Saturday, Sunday, or a day when commercial banks in the capitol of <Provider's Country> typically stay closed.  The plural is ""Business Days"".
+

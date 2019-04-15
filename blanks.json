@@ -1,5 +1,15 @@
 {
+  "Support SLA Lookback Periods": "three",
   "termination notice period": "three",
   "breach cure period": "fourteen calendar days",
+  "Critical Response Time": "within 30 minutes",
+  "Critical Update Interval": "every hour",
+  "Critical Solution Time": "within 4 hours",
+  "Urgent Response Time": "within 2 hours",
+  "Urgent Update Interval": "every 4 hours",
+  "Urgent Solution Time": "within 12 hours",
+  "Regular Response Time": "the next Business Day",
+  "Regular Update Interval": "every Business Day",
+  "Regular Solution Time": "within 7 Business Days",
   "minimize": "diffs"
 }

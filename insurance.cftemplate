@@ -1,9 +1,10 @@
-    \Carry Insurance\ <Provider> agrees to carry insurance policies meeting the following minimum criteria, covering the entire term of the agreement, plus an additional [Insurance Survival Period]:
+    \Carry Insurance\ <Provider> agrees to carry insurance policies meeting the following criteria or better, covering the entire term of the agreement, plus an additional [Insurance Survival Period]:
 
         \\  commercial general liability:
             \\  including contractual and product liability with
             \\  [CGL Per Occurrence] per occurrence
             \\  [CGL Aggregate] in the aggregate
+            \\  [Maximum Retention] maximum deductible or retention
 
         \\  privacy and cybersecurity liability:
             \\  covering costs arising from data destruction, hacking or intentional breaches, crisis management activity related to data breaches, and legal claims for security breach, privacy violations, and notification costs) of
@@ -17,6 +18,7 @@
         \\  professional liability or errors and omissions:
             \\  [PL Per Occurrence] per occurrence
             \\  [PL Aggregate] in the aggregate
+            \\  [Maximum Retention] maximum deductible or retention
 
     \Minimum Ratings\  <Provider> agrees to meet {Carry Insurance} with policies from insurers with the following minimum ratings:
 
@@ -27,8 +29,6 @@
     \Umbrella\  <Provider> may satisfy limits under {Carry Insurance} with combinations of primary and umbrella excess coverage that result in the same coverage as a single policy meeting the required limits.
 
     \Additional Insureds\  <Provider> agrees to name <Customer>, each of <Customer>'s subsidiaries, and <Customer Personnel> as additional insureds in the commercial general liability policy for contractual liability.
-
-    \Deductible\  Unless otherwise agreed in writing, <Provider> will maintain a deductible or retention of no more than [Maximum Retention] per occurrence or accident for all lines of general commercial liability and professional liability coverage.
 
     \Provide Proof of Coverage\  Upon request, <Provider> agrees to provide <Customer> proof of insurance coverage required under this agreement.
 

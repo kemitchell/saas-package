@@ -1,7 +1,14 @@
 {
-  "Support SLA Lookback Periods": "three",
   "termination notice period": "three",
   "breach cure period": "fourteen calendar days",
+
+  "Uptime Commitment": "99.9%",
+  "First Uptime SLA Credit Percentage": "5%",
+  "Second Uptime SLA Credit Percentage": "10%",
+  "Third Uptime SLA Credit Percentage": "25%",
+  "Uptime SLA Lookback Periods": "three",
+  "Support Uptime SLA Lookback Periods": "three",
+
   "Critical Response Time": "within 30 minutes",
   "Critical Update Interval": "every hour",
   "Critical Solution Time": "within 4 hours",
@@ -11,5 +18,6 @@
   "Regular Response Time": "the next Business Day",
   "Regular Update Interval": "every Business Day",
   "Regular Solution Time": "within 7 Business Days",
+
   "minimize": "diffs"
 }

@@ -18,7 +18,7 @@
             \\  [PL Per Occurrence] per occurrence
             \\  [PL Aggregate] in the aggregate
 
-    \Minimum Ratings\  <Provider> agrees to meet {Carry Insurance} with policies from insurers with, at minimum, all the following ratings:
+    \Minimum Ratings\  <Provider> agrees to meet {Carry Insurance} with policies from insurers with the following minimum ratings:
 
         \\  A.M. Best Financial Strength: "[AMB Minimum Strength]"
         \\  A.M. Best Financial Size: "[AMB Minimum Size]"
@@ -28,7 +28,7 @@
 
     \Additional Insureds\  <Provider> agrees to name <Customer>, each of <Customer>'s subsidiaries, and <Customer Personnel> as additional insureds in the commercial general liability policy for contractual liability.
 
-    \Deductible\  Unless agreed to otherwise in writing, Supplier will maintain a deductible or retention of no more than $100,000 US (or the local currency equivalent) per occurrence or accident throughout the Term  for all lines of coverage under Sections 10(a) (General) and 10(b) (Professional liability/errors and omissions liability).
+    \Deductible\  Unless otherwise agreed in writing, <Provider> will maintain a deductible or retention of no more than [Maximum Retention] per occurrence or accident for all lines of general commercial liability and professional liability coverage.
 
     \Provide Proof of Coverage\  Upon request, <Provider> agrees to provide <Customer> proof of insurance coverage required under this agreement.
 

@@ -1,76 +1,276 @@
 ""Provider"" and ""Customer"" agree:
 
-    \Personnel\  TODO
+    \Deal Packet\
 
-    \Subcontracting\  TODO
+        \Documents\  These ""Base Terms"", together with an ""Order"" referencing them, make up a ""Deal Packet"".  The <Deal Packet> may also include other terms referenced on the <Order>, such as a ""Rider"" and one or more ""Add-On"" documents.
 
-    \Intellectual Property\  TODO
+        \Conflicts\  Where documents in the <Deal Packet> conflict, the <Rider> takes precedence over any <Add-On>, and any <Add-On> takes precedence over these <Base Terms>.
 
-    \Payment\
+    \Provider's Obligations\
 
-        \Tax\  TODO
+        \Provide the Service\ <Provider> agrees to run the <Service> so that <Users> can use the <Feature Set> by accessing the <Service> with systems meeting the requirements in the <Documentation>, within the <Use Limits>.
 
-        \Late Payment\  TODO
+        \Keep Customer Data Confidential\ <Provider> agrees not to access, use, or disclose <Customer Data> without <Permission>, except:
 
-    \Billing\
+            \\  as needed to provide the <Service>
 
-        \Invoicing\  TODO
+            \\  to monitor use of the <Service> to prevent, detect, and mitigate breach of this agreement
 
-        \Late Invoices\  TODO
+            \\  to respond to <Support Requests>
 
-    \Term\
+        \Take Security Precautions\  <Provider> agrees to take industry-standard security precautions to defend the <Service> from malicious technical attack and <Data Compromise>.  <Provider> does not agree to make sure the <Service> is completely free of software bugs or configuration errors affecting security, or completely secure from all possible technical attack.
 
-        \Month-to-Month\  TODO
+        \Prepare for Disasters\  While this agreement continues, <Provider> agrees to:
 
-        \Annual\  TODO
+            \\  adopt, maintain, and periodically review a written plan to recover from any <Disaster> affecting the systems used to provide the <Service> or the integrity of <Customer Data>
 
-        \Survival\  TODO
+            \\  share the plan with relevant <Provider> personnel
 
-    \Confidentiality\  TODO
+            \\  give <Customer> a copy of the current plan on request
 
-    \Security\  TODO
+            \\  follow the plan if a <Disaster> happens
 
-    \Compliance\
+        \Provide Basic Support\  <Provider> agrees to respond to <Customer> ""Support Requests"" from <Customer Personnel> via e-mail about configuration of, use of, and problems with the <Service>.
 
-        \Export Compliance\  TODO
+        \Use Responsible Subcontractors\  <Provider> agrees to make sure its employees and contractors abide by {Keep Customer Data Confidential}, {Take Security Precautions}, {Prepare for Disasters}, and {Keep Malicious Code Out of the Service}.  <Provider> may contract with others to provide computer systems used to provide the <Service> to <Customer>.
 
-        \Anti-Corruption Compliance\  TODO
+        \Publish Documentation\  <Provider> agrees to host the <Documentation> so <Customer> personnel can read it on the World Wide Web.
 
-        \Workplace Safety Compliance\  TODO
+        \Refund Prepaid Fees for Removed Features\  If <Provider> changes or removes <Software Features> from the <Service> that were part of the <Feature Set>, substantially reducing how useful the <Service> is to <Customer>, and <Customer> ends this agreement in the same <Billing Period> as the change or the next <Billing Period>, citing the change, then <Provider> agrees to refund any <Prepaid Fees>.
 
-        \Privacy\  TODO
+        \Keep Malicious Code Out of the Service\  <Provider> agrees to make sure the <Service> itself is free of computer viruses, Trojans, worms, and other malicious code.  <Provider> does not agree to ensure that content from others that is accessible through the <Service> is free of malicious code.
 
-    \Publicity\  TODO
+        \Limit Validation Code in the Software\  <Provider> agrees not to include any code that automatically disables <Software Features> based on monitoring of <Use Limits>.  <Provider> may include code that monitors <Use Limits>, validates administrative <Access Credentials>, and reports results back to <Provider> systems.
 
-    \Reps and Warranties\  TODO
+        \Bill Customer\  <Provider> agrees to bill <Customer> <Fees> for the <Service> as agreed on the <Order>.
 
-    \Indemnities\  TODO
+        \Protect Customer from Liability\  So long as <Customer> has paid all <Fees> as required by this agreement:
 
-    \Procedures\
+            \Indemnify Customer\  Subject to {Indemnification Process}, <Provider> agrees to give <Customer> <Indemnification> for <Legal Claims> by others alleging that <Permitted Use of the Service> infringes any copyright, trademark, or trade secret right, or breaks any law.
 
-        \Indemnification\  TODO
+            \Provide Assurance about Patents\  As of the day <Provider> signs this agreement, <Provider> employees are not aware of any patent that <Provider> would infringe by licensing or providing the <Service> under this agreement, or that <Customer> would infringe by <Permitted Use of the Service>.
 
-        \Notice\  TODO
+            \Give Notice of Infringement and Noncompliance Claims\  <Provider> agrees to give <Customer> prompt <Notice> of any <Infringement or Noncompliance Claim>.
+
+        \Protect Customer After this Agreement Ends\  {Keep Customer Data Confidential} and {Indemnify Customer} continue after this agreement ends.
+
+    \Customer's Obligations\
+
+        \Pay Fees\  <Customer> agrees to pay all <Fees>, as agreed on the <Order>.  <Customer> agrees to pay all tax on fees, except tax <Provider> owes on income.
+
+        \Handle Tax Withholding\  If <Customer> operates in a different country than <Provider>, and local law requires <Customer> to withhold taxes on fees paid under this agreement:
+
+            \\  <Customer> agrees to make the required tax withholding payments for <Provider> by deducting the right amounts from payments to <Provider> and paying them to the proper tax authorities.
+
+            \\  <Customer> agrees to increase the amount of each payment made under this agreement, to offset withholding, so that <Provider> receives the full amount owed according to the <Order>.
+
+            \\  <Customer> agrees to provide <Provider> relevant official tax documentation and tax receipts showing that withholding was required, and that proper withholding payment has been made, as soon as possible after making any withholding payment.
+
+        \Follow Rules About Use\  <Customer> agrees not to:
+
+            \\  infringe anyone's <Intellectual Property Right> using the <Service>
+
+            \\  violate anyone's rights using the <Service>
+
+            \\  breach any agreement using the <Service>
+
+            \\  break the law using the <Service>
+
+            \\  furnish or solicit <Customer Data> in any way that infringes any <Intellectual Property Right>, breaks any law, or breaches any other agreement
+
+            \\  furnish or solicit <Customer Data> subject to <Special Data Regulations>
+
+            \\  remove proprietary notices from the <Service> or <Documentation>
+
+            \\  strain the technical infrastructure of the <Service> with an unreasonable volume or rate of requests, or requests designed to impose an unreasonable load, except with <Permission> to conduct a specific technical or security test
+
+        \Enforce Rules About Use\  <Customer> agrees to make sure <Customer Personnel> abide by {Follow Rules About Use}.
+
+        \Update Account Details\  While this agreement continues, <Customer> agrees to keep its contact, payment, and other administrative details complete, accurate, and up-to-date.  <Customer> agrees to do so through the <Account Dashboard> whenever possible, and otherwise by <Notice>.
+
+        \Respond to Support Follow-Ups\  <Customer> agrees to make sure that relevant <Customer Personnel> respond quickly to follow-up questions about <Support Requests>.
+
+        \Indemnify Provider\  Subject to {Indemnification Process}, <Customer> agrees to give <Provider> <Indemnification> from <Legal Claims> by others based on:
+
+            \\  <Customer>'s breach of this agreement
+
+            \\  <Customer Data>
+
+            \\  <Use of the Service at Customer's Own Risk>
+
+            \\  misuse of <Customer>'s <Access Credentials>
+
+        \Protect Provider After this Agreement Ends\  {Pay Fees} and {Indemnify Provider} continue after this agreement ends.
+
+    \Intellectual Property\
+
+        \Existing and Outside IP\  This agreement does not change ownership of any <Intellectual Property Right> held by either side before entering this agreement, or created outside the scope of this agreement.
+
+        \Deliverables\  <Customer> will own every <Intellectual Property Right> in work created in the scope of this agreement designated ""Proprietary Deliverables"" in the <Order>.  Subject to {Existing and Outside IP}, <Proprietary Deliverables> are "work made for hire" to the extent possible under copyright law.  <Provider> assigns every <Intellectual Property Right> in <Proprietary Deliverables> that cannot be work made for hire to <Customer>, and waives all moral rights in <Proprietary Deliverables>.  <Customer> agrees that <Provider> may develop work with functionality similar to that of <Proprietary Deliverables> for other customers, or to release as open source.
+
+    \Changes\
+
+        \Changes Customer May Make\
+
+            \\  <Customer> may end this agreement at the end of a <Billing Period> by giving <Notice> at least one full <Billing Period> in advance.
+
+            \\  If the <Order> describes a pricing structure for higher <Use Limits>, <Customer> may increase its <Use Limits> within that pricing structure at any time, by <Notice>.  <Customer> increases to <Use Limits> take effect as soon as <Customer> pays any added <Fees>.
+
+        \Changes Provider May Make\
+
+            \\  <Provider> may end this agreement at the end of the twelfth or any later <Billing Period> by giving <Notice> at least [termination notice period] full <Billing Periods> in advance.
+
+            \\  <Provider> may end this agreement immediately if <Customer> breaches this agreement and fails to cure the breach within [breach cure period] of <Notice>.
+
+            \\  <Provider> may add, remove, and change <Software Features> in the <Service>.
+
+            \\  <Provider> may add, remove, and change the functionality of the <Account Dashboard> and <Documentation>.
+
+            \\  <Provider> may take any of these steps in response to an <Infringement or Noncompliance Claim>:
+
+                \\  <Provider> may update the <Service> so that use of the <Service> as provided will no longer infringe or break the law.
+
+                \\  <Provider> may change how it provides the <Service> so that use of the <Service> as provided will no longer infringe or break the law.
+
+                \\  If the problem is infringement, <Provider> may get a license for <Customer> so that use of the <Service> will no longer infringe.
+
+                \\  If the problem is illegality, <Provider> may get the government approvals, licenses, or other requirements needed to abide by the law.
+
+                \\  <Provider> may end this agreement and refund any <Prepaid Fees>.
 
     \Liability\
 
-        \Damages Exclusions\  TODO
+        \Agreed Legal Remedies\
 
-        \Damages Cap\  TODO
+            \\  Each side's only legal remedy for <Legal Claims> covered by <Indemnification> will be <Indemnification>.
 
-    \Audit\  TODO
+            \\  <Customer>'s only legal remedy for changes to <Software Features> in the <Service> will be a refund under {Refund Prepaid Fees for Removed Features}.
 
-    \Conflicts Between Package Documents\  Where documents in the <Deal Package> conflict, the <Rider> takes precedence over any <Add-On>, and any <Add-On> takes precedence over these <Base Terms>.
+        \Valid Excuses\  Neither side will be liable for any failure or delay in meeting any service level or other obligation under this agreement caused by a <Disaster>, failure of the other side or its personnel to meet their obligations under this agreement, or actions done or delayed on written request of the other side.
 
-    \Independent Contractors\  TODO
+        \Only Express Warranties!!  Except for its obligations in {Provider's Obligations}, <Provider> provides the <Service> "as is", without any warranty at all.  <Provider> disclaims any warranties the law might otherwise imply, like warranties of merchantability, fitness for any particular purpose, title, or noninfringement.
 
-    \Governing Law\  TODO
-    \Waiver\  TODO
-    \Assignment\  TODO
-    \Force Majeure\  TODO
-    \Severability\  TODO
-    \Insolvency\  TODO
-    \Integration\  TODO
-    \Amendment\  TODO
-    \Signature\  TODO
-    \Construction\  TODO
+        \Limited Damages!!
+
+            \!!  Subject to {Damages Limit Exceptions}, neither side's total liability for breach of this agreement will exceed the amount of <Fees> <Provider> received from <Customer> during the twelve months before the first claim is filed.  This limit applies even if the side liable is advised that the other may suffer damages, and even if <Customer> paid no fees at all.
+
+            \!!  Neither side will be liable for breach-of-contract damages they could not have reasonably foreseen when entering into this agreement.
+
+            \Damages Limit Exceptions\  {Limited Damages} does not limit damages for breach of:
+
+                \\  {Pay Fees}
+
+                \\  {Keep Customer Data Confidential}
+
+                \\  {Follow Rules About Use}
+
+                \\  {Enforce Rules About Use}
+
+                \\  {Provide Assurance about Patents}
+
+                \\  {Indemnify Customer}
+
+                \\  {Indemnify Provider}
+
+    \Process\
+
+        \Indemnification Process\  Both sides agree that to receive <Indemnification> under this agreement, they must give <Notice> of any covered <Legal Claims> quickly, allow the other side to control investigation, defense, and settlement, and cooperate with those efforts.  Both sides agree that if they fail to give <Notice> of any covered <Legal Claims> quickly, <Indemnification> will not cover amounts that could have been defended against or mitigated if <Notice> had been given quickly.  Both sides agree that if they take control of the defense and settlement of any <Legal Claims> covered by <Indemnification>, they will not agree to any settlements that admit fault or impose obligations on the other side without their <Permission>.
+
+        \Notice Process\  Both sides agree that to give <Notice> under this agreement, the side giving <Notice> must send by e-mail to the address the recipient gave with its signature, or to a different address given later for <Notice> going forward.  If either side finds that e-mail can't be delivered to the e-mail address given, it may give <Notice> by registered mail to the address on file for the recipient with the state under whose laws it is organized.
+
+    \General Contract Terms\
+
+        \Governing Law\  The law of the state of California will govern this agreement.
+
+        \Government Procurement\  The <Service> is commercial computer software, and the <Documentation> is commercial computer software documentation.  All were developed exclusively at private expense.  If <Customer>'s procurement is subject to Federal Acquisition Regulation 12.212 or Defense Federal Acquisition Regulation Supplement 227.7202, <Customer>'s rights will be only those stated in this agreement.
+
+        \Whole Agreement\  Both sides intend the <Order> and these terms as the final, complete, and only expression of their terms about use of the <Service> and related support services.  However, this agreement does not affect the terms of any separate nondisclosure or confidentiality agreement <Provider> and <Customer> may have.
+
+        \Enforcement\  Only <Provider> and <Customer> may enforce this agreement.
+
+        \Assignment\  Each side may assign all its rights, licenses, and obligations under this agreement, as a whole, to a new legal entity created to change its jurisdiction or legal form of organization, or to an entity that acquires substantially all of its assets or enough securities to control its management.  Otherwise, each side needs <Permission> to assign any right or license under this agreement.  Attempts to assign against these terms will have no legal effect.
+
+        \Lawsuits\
+
+            \Forum\  Both sides agree to bring any <Lawsuit> in <San Francisco Courts>.
+
+            \Exclusive Jurisdiction\  Both sides consent to the exclusive jurisdiction of <San Francisco Courts>.  Both sides may enforce judgments from <San Francisco Courts> in other jurisdictions.
+
+            \Inconvenient Forum Waiver\  Both sides waive any objection to venue for any <Lawsuit> in <San Francisco Courts> and any claim that the other brought any <Lawsuit> in <San Francisco Courts> in an inconvenient forum.
+
+    \Definitions\
+
+        \\  ""Access Credentials"" means a user name and password, license key, or other secret that affords use of the <Service> or systems providing the <Service>.
+
+        \\  ""Account Dashboard"" means the account management section of the administration page of the <Service>.
+
+        \\  ""Billing Period"" means a successive, month-long period.  The first <Billing Period> starts on the date of this agreement.  The plural is ""Billing Periods"".
+
+        # Note: "Business Day" is used in SLA blanks.
+        \\  ""Business Day"" means a day other than a Saturday, Sunday, or a day when commercial banks in New York, New York typically stay closed.  The plural is ""Business Days"".
+
+        \\  ""Customer Data"" means data that:
+
+            \\  <Users> furnish to the <Service>, such as by entering it or configuring the <Service> to gather or receive it, if doing so doesn't breach this agreement
+
+            \\  the <Service> collects about <Users> and how they use the <Service>
+
+        \\  ""Customer Personnel"" means <Customer>'s employees and each <Customer> subsidiary's employees, as well as independent contractors providing services to <Customer>.
+
+        \\  ""Data Compromise"" means malicious technical compromise or unauthorized disclosure of <Customer Data>.
+
+        \\  ""Disaster"" means:
+
+            \\  fire, flood, earthquake, pandemic, and other natural disasters
+
+            \\  declared and undeclared wars, acts of terrorism, sabotage, riots, civil disorders, rebellions, and revolutions
+
+            \\  extraordinary malfunction of Internet infrastructure, data centers, or communications utilities
+
+            \\  malicious technical attack on systems providing the <Service>
+
+            \\  government actions taken in response to any of these causes
+
+        \\  ""Documentation"" means the documentation that <Provider> publishes for the <Service>.
+
+        \\  ""Fees"" means all fees agreed in the <Order>.
+
+        \\  ""Feature Set"" means all <Software Features> described in the <Documentation> on the date of this agreement.
+
+        \\  ""Indemnification"" means indemnifying and holding harmless for all liability, expenses, damages, and costs.
+
+        \\  ""Infringement or Noncompliance Claim"" means a court order against use of the <Service> based on a claim that it infringes any <Intellectual Property Right>, or breaks any law, or a threat of that kind of claim that <Provider> believes credible.
+
+        \\  ""Intellectual Property Right"" means any patent, copyright, trademark, or trade secret right, or any other legal right typically referred to as an intellectual property right.
+
+        \\  ""Lawsuit"" means a lawsuit brought by one side against the other, related to this agreement or the <Service>.
+
+        \\  ""Legal Claims"" means claims, demands, lawsuits, and other legal actions.
+
+        \\  ""Notice"" means a written communication from one side to the other per {Notice Process}.
+
+        \\  ""Permission"" means prior <Notice> of consent.
+
+        \\  ""Permitted Use of the Service"" means <Customer>'s use of the <Service>, other than <Use of the Service at Customer's Own Risk>.
+
+        \\  ""Prepaid Fees"" means <Fees> <Customer> prepaid for <Billing Periods> yet to begin.
+
+        \\  ""San Francisco Courts"" means the California state courts sitting in San Francisco or the United States District Court for the Northern District of California.
+
+        \\  ""Service"" means the service identified on the <Order>.
+
+        \\  ""Software Features"" means functions of the <Service> described in the <Documentation>.
+
+        \\  ""Special Data Regulations"" means laws and regulations that impose special requirements on the collection, storage, processing, or transmission of particular kinds of data about individuals.  The Gramm-Leach-Bliley Act, Health Insurance Portability and Accountability Act, Children's Online Privacy Protection Act, and Fair Credit Reporting Act are some <Special Data Regulations>.  Laws that apply to data just because they may identify specific individuals are not <Special Data Regulations>.
+
+        \\  ""Use of the Service at Customer's Own Risk"" means:
+
+            \\  use of the <Service> in breach of this agreement
+
+            \\  use of the <Service> with changes, additions, or in combination with other software, systems, or data, in a way that infringes someone else's <Intellectual Property Right> or breaks the law, if use of the <Service> as provided, as described by the <Documentation>, would not
+
+            \\  unauthorized use of the <Service> with <Customer> <Access Credentials>
+
+        \\  ""Use Limits"" means numeric limits on technical aspects of the <Service>, such as amount of data storage space and visitors per <Billing Period>.
+
+        \\  ""Users"" means users of the <Service>, both <Customer Personnel> and others.

@@ -1,1 +1,5 @@
-{}
+{
+  "termination notice period": "three",
+  "breach cure period": "fourteen calendar days",
+  "minimize": "diffs"
+}

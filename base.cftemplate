@@ -18,6 +18,8 @@
 
             \\  to respond to <Support Requests>
 
+        \Provide Access to Customer Data\  <Provider> agrees to make <Customer Data> available for <Customer> to download, via self-service features of the <Service>, on <Notice> from <Customer>, or both.
+
         \Take Security Precautions\  <Provider> agrees to take industry-standard security precautions to defend the <Service> from malicious technical attack and <Data Compromise>.  <Provider> does not agree to make sure the <Service> is completely free of software bugs or configuration errors affecting security, or completely secure from all possible technical attack.
 
         \Prepare for Disasters\  <Provider> agrees to:
@@ -53,7 +55,15 @@
 
             \Give Notice of Infringement and Noncompliance Claims\  <Provider> agrees to give <Customer> prompt <Notice> of any <Infringement or Noncompliance Claim>.
 
-        \Protect Customer After this Agreement Ends\  The following <Provider> obligations continue after this agreement ends: {Keep Customer Data Confidential}, {Enforce Rules About Providing the Service}, {Indemnify Customer}
+        \Protect Customer After this Agreement Ends\  The following <Provider> obligations continue after this agreement ends:
+
+            \\  {Keep Customer Data Confidential}, indefinitely
+
+            \\  {Enforce Rules About Providing the Service}, indefinitely
+
+            \\  {Indemnify Customer}, indefinitely
+
+            \\  {Provide Access to Customer Data}, for [Data Access Survival Period]
 
     \Customer's Obligations\
 
@@ -113,7 +123,11 @@
 
             \\  misuse of <Customer>'s <Access Credentials>
 
-        \Protect Provider After this Agreement Ends\  The following <Customer> obligations continue after this agreement ends: {Pay Fees}, {Indemnify Provider}
+        \Protect Provider After this Agreement Ends\  The following <Customer> obligations continue after this agreement ends:
+
+            \\  {Pay Fees}, indefinitely
+
+            \\  {Indemnify Provider}, indefinitely
 
     \Intellectual Property\  This agreement does not change ownership of any <Intellectual Property Right> held by either side before entering this agreement, or created outside the scope of this agreement.
 

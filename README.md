@@ -1,6 +1,6 @@
 # SaaS Passport
 
-standardized, adaptable terms for SaaS contracts
+adaptable standard terms for software as a service
 
 ## Deal Packet
 

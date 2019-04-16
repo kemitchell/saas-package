@@ -10,3 +10,4 @@
 - Always use "then" after "if".
 - Use "side" to refer to parties, as in "both sides" and "neither side".
 - For default terms, use "does not say", as in "If the Order Form does not say, then ...".
+- To refer to terms from other documents, use "listed on", as in "listed on the Order Form".

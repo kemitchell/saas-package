@@ -31,4 +31,4 @@ $(CFTEMPLATE) $(COMMONFORM):
 .PHONY: clean
 
 clean:
-	rm -f $(BUILD)
+	rm -rf $(BUILD)

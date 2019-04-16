@@ -54,7 +54,11 @@
 
         \Protect Customer from Liability\  So long as <Customer> has paid all <Fees> as required by this agreement:
 
-            \Indemnify Customer\  Subject to {Indemnification Process}, <Provider> agrees to give <Customer> <Indemnification> for <Legal Claims> by others alleging that <Permitted Use of the Service> infringes any copyright, trademark, or trade secret right, or breaks any law.
+            \Indemnify Customer\  Subject to {Indemnification Process}, <Provider> agrees to give <Customer> <Indemnification> for:
+
+                \\  <Legal Claims> by others alleging that <Permitted Use of the Service> infringes any copyright, trademark, or trade secret right, or breaks any law
+
+                \\  <Legal Claims> by others resulting from <Provider>'s breach of {Independence}
 
             \Provide Assurance about Patents\  As of the day <Provider> signs this agreement, <Provider> employees are not aware of any patent that <Provider> would infringe by licensing or providing the <Service> under this agreement, or that <Customer> would infringe by <Permitted Use of the Service>.
 

@@ -5,11 +5,11 @@
         # From Rider: Uptime SLA Credit Schema (default: see add-on)
         \Give Credits for Low Uptime\  <Provider> agrees to credit <Customer>'s account on <Notice> and verification that <Provider> failed to provide service according to {Service-Level Agreement} in the current <Billing Period> or any of the [Uptime SLA Lookback Periods] prior <Billing Periods>, according to the <Rider>.  If the <Rider> does not say, <Provider> agrees to credit <Customer>'s account:
 
-            \\  [First Uptime SLA Credit Percentage] of <Service Fees> for any <Billing Period> with <Uptime> between zero and one percentage point less than the <Uptime Commitment>
+            \\  [First Uptime SLA Credit Percentage] of <Fees> for any <Billing Period> with <Uptime> between zero and one percentage point less than the <Uptime Commitment>
 
-            \\  [Second Uptime SLA Credit Percentage] of <Service Fees> for any <Billing Period> with <Uptime> between one and two percentage points less than the <Uptime Commitment>
+            \\  [Second Uptime SLA Credit Percentage] of <Fees> for any <Billing Period> with <Uptime> between one and two percentage points less than the <Uptime Commitment>
 
-            \\  [Third Uptime SLA Credit Percentage] of <Service Fees> for any <Billing Period> with <Uptime> at or below three percentage points less than the <Uptime Commitment>
+            \\  [Third Uptime SLA Credit Percentage] of <Fees> for any <Billing Period> with <Uptime> at or below three percentage points less than the <Uptime Commitment>
 
         \Apply Credits\  <Provider> agrees to apply credits under {Give Credits for Low Uptime} against <Customer>'s obligations to pay <Fees> as soon as possible.  <Provider> does not agree to refund any credits.
 

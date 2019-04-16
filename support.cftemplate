@@ -42,13 +42,15 @@
 
             \\  For <Regular Support Requests>:  Respond [Regular Response Time], update on status [Regular Update Interval], and provide a solution [Regular Solution Time].
 
+            \Escalation\  <Provider> agrees to task <Provider Personnel> providing support with promptly escalating <Support Requests> that they cannot resolve independently to <Provider> engineering personnel responsible for the <Service>.  Support personnel will remain the primary points of contact for <Customer Personnel>, coordinate with <Provider> engineering personnel, and relay questions, advice, and progress to <Customer Personnel>.  Where appropriate, support personnel may connect <Customer Personnel> to <Provider> engineering personnel directly.
+
         \Refund Fees for Unresponsive Support\  If <Provider> fails to meet {Responsiveness} for [Support SLA Lookback Periods] <Billing Periods> in a row, and <Customer> ends this agreement at the end of those <Billing Periods>, citing poor support responsiveness, <Provider> agrees to refund any <Prepaid Fees>.  If <Provider> billed <Fees> for support separately, <Provider> also agrees to refund all <Fees> that <Provider> paid for support in the [Support SLA Lookback Periods] <Billing Periods>.
 
     \Agreed Legal Remedy\  <Customer>'s only legal remedy for failure to meet {Responsiveness} will be a refund under {Refund Fees for Unresponsive Support}.
 
     \Definitions\
 
-        \\  The following terms mean the same in this add-on as in the base terms: ""Base Terms"", ""Customer Personnel"", ""Customer"", ""Data Compromise"", ""Feature Set"", ""Fees"", ""Prepaid Fees"", ""Provider"", ""Provider's Country"", ""Rider"", ""Service"", ""Users""
+        \\  The following terms mean the same in this add-on as in the base terms: ""Base Terms"", ""Customer Personnel"", ""Customer"", ""Data Compromise"", ""Feature Set"", ""Fees"", ""Prepaid Fees"", ""Provider"", ""Provider Personnel"", ""Provider's Country"", ""Rider"", ""Service"", ""Users""
 
         \\  ""Business Day"" means a day other than a Saturday, Sunday, or a day when commercial banks in the capitol of <Provider's Country> typically stay closed.  The plural is ""Business Days"".
 

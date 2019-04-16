@@ -1,0 +1,17 @@
+    \Arbitration\  Instead of bringing any <Lawsuit> in <Provider's Local Courts>, the parties agree to bring any <Lawsuit> to arbitration.
+
+    # From Rider: Location for Arbitration (default: nearest city with international airport)
+    \Location\  Both sides agree to arbitrate in the for arbitration listed on the <Rider>.  If the <Rider> does not say, the parties agree to arbitrate in the city nearest <Provider's Given Address> with an international, commercial airport.
+
+    # From Rider: Arbitrator (default: most popular in country or ICC)
+    \Arbitrator\  Both sides agree to arbitration administered by the arbitrator listed on the <Rider>.  If the <Rider> does not say, both sides agree to arbitration administered by the arbitration organization based in the same country as the location for arbitration, by number of arbitrations per year, or if there is no such arbitrator, by the International Court of Arbitration.
+
+    # From Rider: Arbitration Rules (default: arbitrator's default)
+    \Rules\  Both sides agree to arbitrator selection and arbitration under the rules listed on the <Rider>.  If the <Rider> does not say, both sides agree to select arbitrators and arbitrate under the default rules of the arbitrator for commercial disputes.
+
+    # From Rider: Arbitration Language (default: English)
+    \Language\  Both sides agree to arbitrate in the language specific for arbitration on the <Rider>.  If the <Rider> does not say, the parties agree to arbitrate in English.
+
+    \Enforcement\  Both sides agree that judgments on awards rendered by arbitrator under this agreement may be entered in any court with jurisdiction.
+
+    \Definitions\  The following terms mean the same in this add-on as in the base terms: ""Lawsuits"", ""Rider""

@@ -8,7 +8,7 @@ DOCX=$(TEMPLATES:.cftemplate=.docx)
 PDF=$(TEMPLATES:.cftemplate=.pdf)
 ALL=$(CFORM) $(DOCX) $(PDF)
 
-all: $(CFORM) $(DOCX) $(PDF)
+all: $(DOCX) $(PDF)
 
 %.pdf: %.docx
 	unoconv $<

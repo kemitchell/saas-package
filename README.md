@@ -25,3 +25,5 @@ Add-ons supplement the base terms with template obligations of various kinds.  R
 - _Insurance_ requires the vendor to carry a slate of insurance
 
 - _Arbitration_ commits the parties to settle disputes by arbitration
+
+- _Publicity_ gives the provider permission to reference the customer to leads, and in promo materials

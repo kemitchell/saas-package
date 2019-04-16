@@ -57,9 +57,17 @@
 
     \Customer's Obligations\
 
-        \Pay Fees\  <Customer> agrees to pay all <Fees>, as agreed on the <Order Form>.  <Customer> agrees to pay all tax on fees, except tax <Provider> owes on income.
+        \Pay Fees\  <Customer> agrees to pay all <Fees>.
 
-        \Handle Tax Withholding\  If <Customer> operates in a different country than <Provider>, and local law requires <Customer> to withhold taxes on fees paid under this agreement:
+        \Pay on Time\  <Customer> agrees to pay each <Provider> bill as agreed on the <Order Form>.  If the <Order Form> does not say, <Customer> agrees to pay each <Provider> bill within [Default Payment Deadline], with late-payment interest at [Default Late-Payment Interest] or the highest legal rate.
+
+        \Use the Agreed Payment Method\  <Customer> agrees to pay all <Fees> under this agreement via the payment method agreed on the <Order Form>.  If the <Order Form> does not say, <Customer> agrees to pay via bank-to-bank transfer, such as FedWire, ACH, SEPA, or SWIFT, if possible, and otherwise via common electronic payment system, such as by credit card or PayPal.
+
+        \Cover Payment Method Fees\  <Customer> agrees to increase the amount of each payment to <Provider> so that <Provider> receives the full amount owed, net of any fees for use of the payment method.
+
+        \Pay Taxes on Fees\  <Customer> agrees to pay all tax on fees under this agreement, except tax <Provider> owes on income.
+
+        \Handle Tax Withholding\  If the law requires withhold of taxes on <Fees> paid under this agreement:
 
             \\  <Customer> agrees to make the required tax withholding payments for <Provider> by deducting the right amounts from payments to <Provider> and paying them to the proper tax authorities.
 

@@ -2,6 +2,9 @@
   "termination notice period": "three",
   "breach cure period": "fourteen calendar days",
 
+  "Default Payment Deadline": "30 calendar days",
+  "Default Late-Payment Interest": "1.5% compounding monthly",
+
   "Uptime Commitment": "99.9%",
   "First Uptime SLA Credit Percentage": "5%",
   "Second Uptime SLA Credit Percentage": "10%",

@@ -17,6 +17,9 @@ all: $(DOCX) $(PDF)
 $(BUILD)/%.docx: %.cform %.options %.json blanks.json styles.json | $(COMMONFORM) $(BUILD)
 	$(COMMONFORM) render $(DOCXFLAGS) $(shell cat $*.options) --blanks blanks.json --signatures $*.json $< > $@
 
+$(BUILD)/%.docx: %.cform %.options blanks.json styles.json | $(COMMONFORM) $(BUILD)
+	$(COMMONFORM) render $(DOCXFLAGS) $(shell cat $*.options) --blanks blanks.json --signatures no-signatures.json $< > $@
+
 .INTERMEDIATE: $(CFORM)
 
 %.cform: %.cftemplate | $(CFTEMPLATE)

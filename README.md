@@ -10,7 +10,7 @@ A deal on SaaS Passport terms is made up of a few documents:
 
 -  A _Rider_ adding vendor-specific terms and optionally incorporating one or more _Add-Ons_, for negotiation by lawyers
 
--  _Base Terms_ setting out invariant legal terms
+-  _Base Terms_ setting out invariant legal terms, which remain fixed across vendors and deals
 
 ## Add-Ons
 

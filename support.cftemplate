@@ -38,7 +38,7 @@
 
                 \\  Respond [Urgent Response Time].
 
-                \\  Update on status [Urgent Update Interval], and provide a solution [Urgent Solution Time].
+                \\  Update on status [Urgent Update Interval].
 
             \\  For <Regular Support Requests>:  Respond [Regular Response Time], update on status [Regular Update Interval], and provide a solution [Regular Solution Time].
 

@@ -14,6 +14,8 @@ A deal on SaaS Passport terms is made up of a few documents:
 
 ## Add-Ons
 
+Add-ons supplement the base terms with template obligations of various kinds.  Riders can then fill in the details, or rely on the add-on's defaults.
+
 - _Patent_ to supplement the standard patent-risk compromise in the base terms with warranty and indemnity for all patent infringement from covered use of the service
 
 - _Uptime_ for service-uptime service-level agreements

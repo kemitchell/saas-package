@@ -44,6 +44,8 @@
 
         \Limit Validation Code in the Software\  <Provider> agrees not to include any code that automatically disables <Software Features> based on monitoring of <Use Limits>.  <Provider> may include code that monitors <Use Limits>, validates administrative <Access Credentials>, and reports results back to <Provider> systems.
 
+        \Publish a Privacy Notice\  <Provider> agrees to publish notice of <Provider>'s privacy policies meeting all legal requirements of <Provider's Country> and <Provider's National Subdivision>, except any <Special Data Regulations>, at a stable World Wide Web address.
+
         # From Order Form: Billing
         \Bill Customer\  <Provider> agrees to bill <Customer> <Fees> for the <Service> as agreed on the <Order Form>.
 

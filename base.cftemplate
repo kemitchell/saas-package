@@ -32,7 +32,7 @@
 
         \Provide Basic Support\  <Provider> agrees to respond to ""Support Requests"" from <Customer Personnel> via e-mail about configuration of, use of, and problems with the <Service>.
 
-        \Use Responsible Subcontractors\  <Provider> agrees to make sure its employees and contractors abide by {Keep Customer Data Confidential}, {Take Security Precautions}, {Prepare for Disasters}, and {Keep Malicious Code Out of the Service}.  <Provider> may contract with others to provide computer systems used to provide the <Service> to <Customer>.
+        \Enforce Rules About Providing the Service\  <Provider> agrees to make sure its employees and contractors abide by {Keep Customer Data Confidential}, {Take Security Precautions}, {Prepare for Disasters}, and {Keep Malicious Code Out of the Service}.  <Provider> may contract with others to provide computer systems used to provide the <Service> to <Customer>.
 
         \Publish Documentation\  <Provider> agrees to host the <Documentation> so <Customer> personnel can read it on the World Wide Web.
 
@@ -85,7 +85,7 @@
 
             \\  strain the technical infrastructure of the <Service> with an unreasonable volume or rate of requests, or requests designed to impose an unreasonable load, except with <Permission> to conduct a specific technical or security test
 
-        \Enforce Rules About Use\  <Customer> agrees to make sure <Customer Personnel> abide by {Follow Rules About Use}.
+        \Enforce Rules About Using the Service\  <Customer> agrees to make sure <Customer Personnel> abide by {Follow Rules About Use}.
 
         \Update Account Details\  <Customer> agrees to keep its contact, payment, and other administrative details complete, accurate, and up-to-date.  <Customer> agrees to do so through the <Account Dashboard> whenever possible, and otherwise by <Notice>.
 
@@ -166,7 +166,7 @@
 
                 \\  {Follow Rules About Use}
 
-                \\  {Enforce Rules About Use}
+                \\  {Enforce Rules About Using the Service}
 
                 \\  {Provide Assurance about Patents}
 

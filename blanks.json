@@ -10,7 +10,7 @@
   "Second Uptime SLA Credit Percentage": "10%",
   "Third Uptime SLA Credit Percentage": "25%",
   "Uptime SLA Lookback Periods": "three",
-  "Support Uptime SLA Lookback Periods": "three",
+  "Support SLA Lookback Periods": "three",
 
   "Critical Response Time": "within 30 minutes",
   "Critical Update Interval": "every hour",

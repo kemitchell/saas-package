@@ -6,7 +6,9 @@
       {}
     ],
     "information": [
-      "date"
+      "date",
+      "email",
+      "address"
     ]
   },
   {
@@ -16,7 +18,9 @@
       {}
     ],
     "information": [
-      "date"
+      "date",
+      "email",
+      "address"
     ]
   }
 ]

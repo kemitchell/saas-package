@@ -98,6 +98,8 @@
 
             \\  <Customer> agrees to provide <Provider> relevant official tax documentation and tax receipts showing that withholding was required, and that proper withholding payment has been made, as soon as possible after making any withholding payment.
 
+        \Give Provider Tax-Compliance Information\  <Customer> agrees to provide <Provider> information that <Provider> needs to comply with tax laws that apply payments under the agreement.
+
         \Follow Rules About Use\  <Customer> agrees not to:
 
             \\  infringe anyone's <Intellectual Property Right> using the <Service>

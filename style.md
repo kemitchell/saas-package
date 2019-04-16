@@ -8,4 +8,4 @@
 ## Formulations
 - Express obligations with "agrees to".
 - Always use "then" after "if".
-
+- Use "side" to refer to parties, as in "both sides" and "neither side".

@@ -53,7 +53,7 @@
 
             \Give Notice of Infringement and Noncompliance Claims\  <Provider> agrees to give <Customer> prompt <Notice> of any <Infringement or Noncompliance Claim>.
 
-        \Protect Customer After this Agreement Ends\  {Keep Customer Data Confidential}, {Enforce Rules About Providing the Service}, and {Indemnify Customer} continue after this agreement ends.
+        \Protect Customer After this Agreement Ends\  The following <Provider> obligations continue after this agreement ends: {Keep Customer Data Confidential}, {Enforce Rules About Providing the Service}, {Indemnify Customer}
 
     \Customer's Obligations\
 
@@ -113,7 +113,7 @@
 
             \\  misuse of <Customer>'s <Access Credentials>
 
-        \Protect Provider After this Agreement Ends\  {Pay Fees} and {Indemnify Provider} continue after this agreement ends.
+        \Protect Provider After this Agreement Ends\  The following <Customer> obligations continue after this agreement ends: {Pay Fees}, {Indemnify Provider}
 
     \Intellectual Property\  This agreement does not change ownership of any <Intellectual Property Right> held by either side before entering this agreement, or created outside the scope of this agreement.
 

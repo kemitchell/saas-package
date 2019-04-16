@@ -51,7 +51,7 @@
         # From Order Form: Billing
         \Bill Customer\  <Provider> agrees to bill <Customer> <Fees> for the <Service> as agreed on the <Order Form>.
 
-        \Give Customer Tax-Compliance Information\  <Provider> agrees to provide <Customer> information that <Customer> needs to comply with tax laws that apply payments under the agreement.
+        \Give Customer Tax-Compliance Information\  <Provider> agrees to give <Customer> information that <Customer> needs to comply with tax laws that apply payments under the agreement.
 
         # From Order Form: Customer Policies (optional)
         \Follow Customer Policies\  <Provider> agrees to comply with company-wide <Customer> policies, such as anticorruption, antiharassment, and equal opportunity policies, attached to the <Order Form> at the time of signing, to the extent they do not conflict with any terms of the <Deal Packet>.  If <Customer> gives <Provider> notice of updates to those policies, <Provider> agrees to comply with the updates, to the extent the changes do not impose substantial new compliance costs.
@@ -98,7 +98,7 @@
 
             \\  <Customer> agrees to provide <Provider> relevant official tax documentation and tax receipts showing that withholding was required, and that proper withholding payment has been made, as soon as possible after making any withholding payment.
 
-        \Give Provider Tax-Compliance Information\  <Customer> agrees to provide <Provider> information that <Provider> needs to comply with tax laws that apply payments under the agreement.
+        \Give Provider Tax-Compliance Information\  <Customer> agrees to give <Provider> information that <Provider> needs to comply with tax laws that apply payments under the agreement.
 
         \Follow Rules About Use\  <Customer> agrees not to:
 

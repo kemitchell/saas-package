@@ -149,6 +149,8 @@
             # From Order Form: pricing structure (optional)
             \\  If the <Order Form> describes a pricing structure for higher <Use Limits>, <Customer> may increase its <Use Limits> within that pricing structure at any time, by <Notice>.  <Customer> increases to <Use Limits> take effect as soon as <Customer> pays any added <Fees>.
 
+            \\  <Customer> may end this agreement by <Notice> if <Provider> becomes <Insolvent>.
+
         \Changes Provider May Make\
 
             \\  <Provider> may end this agreement at the end of the twelfth or any later <Billing Period> by giving <Notice> at least [termination notice period] full <Billing Periods> in advance.
@@ -170,6 +172,8 @@
                 \\  If the problem is illegality, <Provider> may get the government approvals, licenses, or other requirements needed to abide by the law.
 
                 \\  <Provider> may end this agreement and refund any <Prepaid Fees>.
+
+            \\  <Provider> may end this agreement by <Notice> if <Customer> becomes <Insolvent>.
 
     \Liability\
 
@@ -283,6 +287,18 @@
         \\  ""Infringement or Noncompliance Claim"" means a court order against use of the <Service> based on a claim that it infringes any <Intellectual Property Right>, or breaks any law, or a threat of that kind of claim that <Provider> believes credible.
 
         \\  ""Intellectual Property Right"" means any patent, copyright, trademark, or trade secret right, or any other legal right typically referred to as an intellectual property right.
+
+        \\  ""Insolvent"" means:
+
+            \\  having fairly stated liabilities that exceed fairly stated assets
+
+            \\  failing to pay obligations on time
+
+            \\  adjudicated bankrupt
+
+            \\  filed a voluntary bankruptcy petition
+
+            \\  made an assignment for the benefit of creditors
 
         \\  ""Lawsuit"" means a lawsuit brought by one side against the other, related to this agreement or the <Service>.
 

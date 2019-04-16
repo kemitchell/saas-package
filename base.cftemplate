@@ -140,7 +140,17 @@
 
             \\  {Indemnify Provider}, indefinitely
 
-    \Intellectual Property\  This agreement does not change ownership of any <Intellectual Property Right> held by either side before entering this agreement, or created outside the scope of this agreement.
+    \Intellectual Property\
+
+        \Existing and Outside IP\  This agreement does not change ownership of any <Intellectual Property Right> held by either side before entering this agreement, or created outside the scope of this agreement.
+
+        \Copyright License\  <Provider> grants <Customer> and each of the <Users> a <Standard License>, for any copyrights <Provider> can license, as needed to make <Permitted Use of the Service> and to read the <Documentation>.
+
+        \Patent License\  <Provider> grants <Customer> and each of the <Users> a <Standard License>, for any patents <Provider> can license, as needed to make <Permitted Use of the Service>.
+
+        \No Other Licenses\  Except for the licenses in {Intellectual Property}, this agreement does not license or assign any <Intellectual Property Right>.
+
+        \Public Licenses\  The terms of this agreement are separate from, and independent of, the terms of any public licenses that <Provider> grants for software or other material that is part of the <Service>.
 
     \Changes\
 
@@ -329,6 +339,8 @@
         \\  ""Software Features"" means functions of the <Service> described in the <Documentation>.
 
         \\  ""Special Data Regulations"" means laws and regulations that impose special requirements on the collection, storage, processing, or transmission of particular kinds of data about individuals.  The Gramm-Leach-Bliley Act, Health Insurance Portability and Accountability Act, Children's Online Privacy Protection Act, and Fair Credit Reporting Act are some <Special Data Regulations>.  Laws that apply to data just because they may identify specific individuals are not <Special Data Regulations>.
+
+        \\  ""Standard License"" means a nonexclusive license during the term of this agreement, without rights to sublicense, that is conditional on payment of all fees as required by this agreement and limited by the <Use Limits>.
 
         \\  ""Use of the Service at Customer's Own Risk"" means:
 

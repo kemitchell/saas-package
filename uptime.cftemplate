@@ -17,6 +17,8 @@
 
     \Agreed Legal Remedy\  <Customer>'s only legal remedies for failures to meet {Service-Level Agreement} will be credits under {Give Credits for Low Uptime} and refunds under {Refund Fees for Low Uptime}.
 
-    \Definitions\  The following terms mean the same in this add-on as in the base terms: ""Base Terms"", ""Billing Period"", ""Billing Periods"", ""Customer"", ""Feature Set"", ""Fees"", ""Notice"", ""Prepaid Fees"", ""Provider"", ""Rider"", ""Service"", ""Use Limits"", ""Users"".
+    \Definitions\
 
-    \\  ""Uptime"" means the percentage of wall-clock time during a <Billing Period> when <Users> can use substantially all of the <Feature Set> of the <Service>, subject to the "Valid Excuses" section of the <Base Terms>.
+        \\  The following terms mean the same in this add-on as in the base terms: ""Base Terms"", ""Billing Period"", ""Billing Periods"", ""Customer"", ""Feature Set"", ""Fees"", ""Notice"", ""Prepaid Fees"", ""Provider"", ""Rider"", ""Service"", ""Use Limits"", ""Users"".
+
+        \\  ""Uptime"" means the percentage of wall-clock time during a <Billing Period> when <Users> can use substantially all of the <Feature Set> of the <Service>, subject to the "Valid Excuses" section of the <Base Terms>.

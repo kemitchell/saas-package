@@ -1,20 +1,27 @@
 **Provider** and **Customer** agree:
 
 # Deal Packet
+
 ## Documents
+
 These **Base Terms**, together with an **Order Form** and **Rider** referencing them, make up a **Deal Packet** for software as a service. The _Deal Packet_ may also include one or more **Add-On** documents referenced by the _Rider_.
 
 ## Conflicts
+
 Where documents in the _Deal Packet_ conflict, the _Rider_ takes precedence over any _Add-On_, and any _Add-On_ takes precedence over these _Base Terms_. The _Order Form_ may only provide terms referenced by the _Rider_, an _Add-On_, or these _Base Terms_. Any other terms in the _Order Form_ have no effect.
 
 # Provider's Obligations
+
 ## Provide the Service
+
 _Provider_ agrees to run the _Service_ so that _Users_ can use the _Feature Set_, within the _Use Limits_, by accessing the _Service_ with systems meeting the requirements in the _Documentation_.
 
 ## Provide All Equipment
+
 _Provider_ agrees to provide for itself, at its own expense, all the computers, software, and other equipment needed to provide the _Service_.
 
 ## Keep Customer Data Confidential
+
 _Provider_ agrees not to access, use, or disclose _Customer Data_ without _Permission_, except:
 
 - as needed to provide the _Service_
@@ -24,12 +31,15 @@ _Provider_ agrees not to access, use, or disclose _Customer Data_ without _Permi
 - to respond to _Support Requests_
 
 ## Provide Access to Customer Data
+
 _Provider_ agrees to make _Customer Data_ available for _Customer_ to download, via self-service features of the _Service_, within `Data Provision Deadline` after _Notice_ from _Customer_, or both, in standardized, machine-readable data interchange formats.
 
 ## Take Security Precautions
+
 _Provider_ agrees to take industry-standard security precautions to defend the _Service_ from malicious technical attack and _Data Compromise_. _Provider_ does not agree to make sure the _Service_ is completely free of software bugs or configuration errors affecting security, or completely secure from all possible technical attack.
 
 ## Prepare for Disasters
+
 _Provider_ agrees to:
 
 - adopt, maintain, and periodically review a written plan to recover from any _Disaster_ affecting the systems used to provide the _Service_ or the integrity of _Customer Data_
@@ -41,39 +51,51 @@ _Provider_ agrees to:
 - follow the plan if a _Disaster_ happens
 
 ## Provide Basic Support
+
 _Provider_ agrees to respond to **Support Requests** from _Customer Personnel_ via e-mail about configuration of, use of, and problems with the _Service_. _Provider_ does not agree to any specific service levels for response to _Support Requests_.
 
 ## Enforce Rules About Providing the Service
+
 _Provider_ agrees to make sure _Provider Personnel_ abide by [Keep Customer Data Confidential](#Keep_Customer_Data_Confidential), [Take Security Precautions](#Take_Security_Precautions), [Prepare for Disasters](#Prepare_for_Disasters), and [Keep Malicious Code Out of the Service](#Keep_Malicious_Code_Out_of_the_Service). _Provider_ may contract with others to provide computer systems used to provide the _Service_ to _Customer_.
 
 ## Publish Documentation
+
 _Provider_ agrees to host the _Documentation_ so _Customer_ personnel can read it on the World Wide Web.
 
 ## Refund Prepaid Fees for Removed Features
+
 If _Provider_ changes or removes _Software Features_ from the _Service_ that were part of the _Feature Set_, substantially reducing how useful the _Service_ is to _Customer_, and _Customer_ ends this agreement in the same _Billing Period_ as the change or the next _Billing Period_, citing the change, then _Provider_ agrees to refund any _Prepaid Fees_.
 
 ## Keep Malicious Code Out of the Service
+
 _Provider_ agrees to make sure the _Service_ itself is free of computer viruses, Trojans, worms, and other malicious code. _Provider_ does not agree to ensure that content from others that is accessible through the _Service_ is free of malicious code.
 
 ## Limit Validation Code in the Software
+
 _Provider_ agrees not to include any code that automatically disables _Software Features_ based on monitoring of _Use Limits_. _Provider_ may include code that monitors _Use Limits_, validates administrative _Access Credentials_, and reports results back to _Provider_ systems.
 
 ## Publish a Privacy Notice
+
 _Provider_ agrees to publish notice of _Provider_'s privacy policies meeting all legal requirements of _Provider's Country_ and _Provider's National Subdivision_, except any _Special Data Regulations_, at a stable World Wide Web address.
 
 ## Bill Customer
+
 _Provider_ agrees to bill _Customer_ _Fees_ for the _Service_ as agreed on the _Order Form_.
 
 ## Give Customer Tax-Compliance Information
+
 _Provider_ agrees to give _Customer_ information that _Customer_ needs to comply with tax laws that apply payments under the agreement.
 
 ## Follow Customer Policies
+
 _Provider_ agrees to comply with company-wide _Customer_ policies, such as anticorruption, antiharassment, and equal opportunity policies, attached to the _Order Form_ at the time of signing, to the extent they do not conflict with any terms of the _Deal Packet_. If _Customer_ gives _Provider_ notice of updates to those policies, _Provider_ agrees to comply with the updates, to the extent the changes do not impose substantial new compliance costs.
 
 ## Protect Customer from Liability
+
 So long as _Customer_ has paid all _Fees_ as required by this agreement:
 
 ### Indemnify Customer
+
 Subject to [Indemnification Process](#Indemnification_Process), _Provider_ agrees to give _Customer_ _Indemnification_ for:
 
 - _Legal Claims_ by others alleging that _Permitted Use of the Service_ infringes any copyright, trademark, or trade secret right, or breaks any law
@@ -81,12 +103,15 @@ Subject to [Indemnification Process](#Indemnification_Process), _Provider_ agree
 - _Legal Claims_ by others resulting from _Provider_'s breach of [Independence](#Independence)
 
 ### Provide Assurance about Patents
+
 As of the day _Provider_ signs this agreement, _Provider_ employees are not aware of any patent that _Provider_ would infringe by licensing or providing the _Service_ under this agreement, or that _Customer_ would infringe by _Permitted Use of the Service_.
 
 ### Give Notice of Infringement and Noncompliance Claims
+
 _Provider_ agrees to give _Customer_ prompt _Notice_ of any _Infringement or Noncompliance Claim_.
 
 ## Protect Customer After this Agreement Ends
+
 The following _Provider_ obligations continue after this agreement ends:
 
 - [Keep Customer Data Confidential](#Keep_Customer_Data_Confidential), indefinitely
@@ -98,22 +123,29 @@ The following _Provider_ obligations continue after this agreement ends:
 - [Provide Access to Customer Data](#Provide_Access_to_Customer_Data), for `Data Access Survival Period`
 
 # Customer's Obligations
+
 ## Pay Fees
+
 _Customer_ agrees to pay all _Fees_. However, unless the _Rider_ says otherwise, _Customer_ does not agree to pay any bill sent more than `Bill Deadline` late.
 
 ## Pay on Time
+
 _Customer_ agrees to pay each _Provider_ bill as agreed on the _Order Form_. If the _Order Form_ does not say, _Customer_ agrees to pay each _Provider_ bill within `Default Payment Deadline`, with late-payment interest at `Default Late-Payment Interest` or the highest legal rate.
 
 ## Use the Agreed Payment Method
+
 _Customer_ agrees to pay all _Fees_ under this agreement via the payment method agreed on the _Order Form_. If the _Order Form_ does not say, _Customer_ agrees to pay via bank-to-bank transfer, such as FedWire, ACH, SEPA, or SWIFT, if possible, and otherwise via common electronic payment system, such as by credit card or PayPal.
 
 ## Cover Payment Method Fees
+
 _Customer_ agrees to increase the amount of each payment to _Provider_ so that _Provider_ receives the full amount owed, net of any fees for use of the payment method.
 
 ## Pay Taxes on Fees
+
 _Customer_ agrees to pay all tax on fees under this agreement, except tax _Provider_ owes on income.
 
 ## Handle Tax Withholding
+
 If the law requires withhold of taxes on _Fees_ paid under this agreement:
 
 - _Customer_ agrees to make the required tax withholding payments for _Provider_ by deducting the right amounts from payments to _Provider_ and paying them to the proper tax authorities.
@@ -123,9 +155,11 @@ If the law requires withhold of taxes on _Fees_ paid under this agreement:
 - _Customer_ agrees to provide _Provider_ relevant official tax documentation and tax receipts showing that withholding was required, and that proper withholding payment has been made, as soon as possible after making any withholding payment.
 
 ## Give Provider Tax-Compliance Information
+
 _Customer_ agrees to give _Provider_ information that _Provider_ needs to comply with tax laws that apply payments under the agreement.
 
 ## Follow Rules About Use
+
 _Customer_ agrees not to:
 
 - infringe anyone's _Intellectual Property Right_ using the _Service_
@@ -149,15 +183,19 @@ _Customer_ agrees not to:
 - publish data about the performance of the _Service_
 
 ## Enforce Rules About Using the Service
+
 _Customer_ agrees to make sure _Customer Personnel_ abide by [Follow Rules About Use](#Follow_Rules_About_Use).
 
 ## Update Account Details
+
 _Customer_ agrees to keep its contact, payment, and other administrative details complete, accurate, and up-to-date. _Customer_ agrees to do so through the _Account Dashboard_ whenever possible, and otherwise by _Notice_.
 
 ## Respond to Support Follow-Ups
+
 _Customer_ agrees to make sure that relevant _Customer Personnel_ respond quickly to follow-up questions about _Support Requests_.
 
 ## Indemnify Provider
+
 Subject to [Indemnification Process](#Indemnification_Process), _Customer_ agrees to give _Provider_ _Indemnification_ from _Legal Claims_ by others based on:
 
 - _Customer_'s breach of this agreement
@@ -169,6 +207,7 @@ Subject to [Indemnification Process](#Indemnification_Process), _Customer_ agree
 - misuse of _Customer_'s _Access Credentials_
 
 ## Protect Provider After this Agreement Ends
+
 The following _Customer_ obligations continue after this agreement ends:
 
 - [Pay Fees](#Pay_Fees), indefinitely
@@ -176,23 +215,31 @@ The following _Customer_ obligations continue after this agreement ends:
 - [Indemnify Provider](#Indemnify_Provider), indefinitely
 
 # Intellectual Property
+
 ## Existing and Outside IP
+
 This agreement does not change ownership of any _Intellectual Property Right_ held by either side before entering this agreement, or created outside the scope of this agreement.
 
 ## Copyright License
+
 _Provider_ grants _Customer_ and each of the _Users_ a _Standard License_, for any copyrights _Provider_ can license, as needed to make _Permitted Use of the Service_ and to read the _Documentation_.
 
 ## Patent License
+
 _Provider_ grants _Customer_ and each of the _Users_ a _Standard License_, for any patents _Provider_ can license, as needed to make _Permitted Use of the Service_.
 
 ## No Other Licenses
+
 Except for the licenses in [Intellectual Property](#Intellectual_Property), this agreement does not license or assign any _Intellectual Property Right_.
 
 ## Public Licenses
+
 The terms of this agreement are separate from, and independent of, the terms of any public licenses that _Provider_ grants for software or other material that is part of the _Service_.
 
 # Changes
+
 ## Changes Customer May Make
+
 - _Customer_ may end this agreement at the end of a _Billing Period_ by giving _Notice_ at least one full _Billing Period_ in advance.
 
 - If the _Order Form_ describes a pricing structure for higher _Use Limits_, _Customer_ may increase its _Use Limits_ within that pricing structure at any time, by _Notice_. _Customer_ increases to _Use Limits_ take effect as soon as _Customer_ pays any added _Fees_.
@@ -200,6 +247,7 @@ The terms of this agreement are separate from, and independent of, the terms of 
 - _Customer_ may end this agreement by _Notice_ if _Provider_ becomes _Insolvent_.
 
 ## Changes Provider May Make
+
 - _Provider_ may end this agreement at the end of the twelfth or any later _Billing Period_ by giving _Notice_ at least `Termination Notice Period` full _Billing Periods_ in advance.
 
 - _Provider_ may end this agreement immediately if _Customer_ breaches this agreement and fails to cure the breach within `Breach Cure Period` of _Notice_.
@@ -223,25 +271,33 @@ The terms of this agreement are separate from, and independent of, the terms of 
 - _Provider_ may end this agreement by _Notice_ if _Customer_ becomes _Insolvent_.
 
 # Liability
+
 ## Agreed Legal Remedies
+
 - Each side's only legal remedy for _Legal Claims_ covered by _Indemnification_ will be _Indemnification_.
 
 - _Customer_'s only legal remedy for changes to _Software Features_ in the _Service_ will be a refund under [Refund Prepaid Fees for Removed Features](#Refund_Prepaid_Fees_for_Removed_Features).
 
 ## Valid Excuses
+
 Neither side will be liable for any failure or delay in meeting any service level or other obligation under this agreement caused by a _Disaster_, failure of the other side or its personnel to meet their obligations under this agreement, or actions done or delayed on written request of the other side.
 
 ## Only Express Warranties
+
 !!! Except for its obligations in [Provider's Obligations](#Provider's_Obligations), _Provider_ provides the _Service_ "as is", without any warranty at all. _Provider_ disclaims any warranties the law might otherwise imply, like warranties of merchantability, fitness for any particular purpose, title, or noninfringement.
 
 ## Limited Damages
+
 ### Damages Cap
+
 !!! Subject to [Damages Limit Exceptions](#Damages_Limit_Exceptions), neither side's total liability for breach of this agreement will exceed the amount of _Fees_ _Provider_ received from _Customer_ during the twelve months before the first claim is filed. This limit applies even if the side liable is advised that the other may suffer damages, and even if _Customer_ paid no fees at all.
 
 ### Unforeseen Damages
+
 !!! Neither side will be liable for breach-of-contract damages they could not have reasonably foreseen when entering into this agreement.
 
 ### Damages Limit Exceptions
+
 [Limited Damages](#Limited_Damages) does not limit damages for breach of:
 
 - [Pay Fees](#Pay_Fees)
@@ -259,52 +315,71 @@ Neither side will be liable for any failure or delay in meeting any service leve
 - [Indemnify Provider](#Indemnify_Provider)
 
 # Process
+
 ## Indemnification Process
+
 Both sides agree that to receive _Indemnification_ under this agreement, they must give _Notice_ of any covered _Legal Claims_ quickly, allow the other side to control investigation, defense, and settlement, and cooperate with those efforts. Both sides agree that if they fail to give _Notice_ of any covered _Legal Claims_ quickly, _Indemnification_ will not cover amounts that could have been defended against or mitigated if _Notice_ had been given quickly. Both sides agree that if they take control of the defense and settlement of any _Legal Claims_ covered by _Indemnification_, they will not agree to any settlements that admit fault or impose obligations on the other side without their _Permission_.
 
 ## Notice Process
+
 Both sides agree that to give _Notice_ under this agreement, the side giving _Notice_ must send by e-mail to the address the recipient gave with its signature, or to a different address given later for _Notice_ going forward. If either side finds that e-mail can't be delivered to the e-mail address given, it may give _Notice_ by registered mail to the address on file for the recipient with the state under whose laws it is organized.
 
 # General Contract Terms
+
 ## Governing Law
+
 The law of the state of California will govern this agreement.
 
 ## Government Procurement
+
 The _Service_ is commercial computer software, and the _Documentation_ is commercial computer software documentation. All were developed exclusively at private expense. If _Customer_'s procurement is subject to Federal Acquisition Regulation 12.212 or Defense Federal Acquisition Regulation Supplement 227.7202, _Customer_'s rights will be only those stated in this agreement.
 
 ## Whole Agreement
+
 Both sides intend the _Deal Packet_ and these terms as the final, complete, and only expression of their terms about use of the _Service_ and related support services. However, this agreement does not affect the terms of any separate nondisclosure or confidentiality agreement _Provider_ and _Customer_ may have.
 
 ## Enforcement
+
 Only _Provider_ and _Customer_ may enforce this agreement.
 
 ## Assignment
+
 Each side may assign all its rights, licenses, and obligations under this agreement, as a whole, to a new legal entity created to change its jurisdiction or legal form of organization, or to an entity that acquires substantially all of its assets or enough securities to control its management. Otherwise, each side needs _Permission_ to assign any right or license under this agreement. Attempts to assign against these terms will have no legal effect.
 
 ## Lawsuits
+
 ### Forum
+
 Both sides agree to bring any _Lawsuit_ in _Provider's Local Courts_.
 
 ### Exclusive Jurisdiction
+
 Both sides consent to the exclusive jurisdiction of _Provider's Local Courts_. Both sides may enforce judgments from _Provider's Local Courts_ in other jurisdictions.
 
 ### Inconvenient Forum Waiver
+
 Both sides waive any objection to venue for any _Lawsuit_ in _Provider's Local Courts_ and any claim that the other brought any _Lawsuit_ in _Provider's Local Courts_ in an inconvenient forum.
 
 ## Independence
+
 ### Discretion
+
 The parties agree that _Provider_ will decide when, where, and how to provide the _Service_, with the discretion of an independent contractor.
 
 ### No Authority
+
 Neither side may enter agreements or take any other legal action on the other side's behalf.
 
 ### No Benefits
+
 Neither _Provider_ nor any _Provider Personnel_ will receive any employee benefits from _Customer_.
 
 ### Compliance
+
 Each side agrees to do its part for tax, labor, employment, and immigration law compliance, consistent with their relationship as independent contractors.
 
 # Definitions
+
 - **Access Credentials** means a user name and password, license key, or other secret that affords use of the _Service_ or systems providing the _Service_.
 
 - **Account Dashboard** means the account management section of the administration page of the _Service_.

@@ -1,7 +1,8 @@
 {
   "private": true,
   "devDependencies": {
-    "cftemplate": "^2.0.2",
-    "commonform-cli": "^0.29.0"
+    "commonform-commonmark": "^1.0.0-pre.3",
+    "commonform-docx": "^3.0.0",
+    "json": "^9.0.6"
   }
 }

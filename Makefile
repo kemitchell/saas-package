@@ -1,34 +1,42 @@
-CFTEMPLATE=node_modules/.bin/cftemplate
-COMMONFORM=node_modules/.bin/commonform
-DOCXFLAGS=-f docx --indent-margins --left-align-title -n outline --styles styles.json
+CFCM=node_modules/.bin/commonform-commonmark
+CFDOCX=node_modules/.bin/commonform-docx
+JSON=node_modules/.bin/json
+
+DOCXFLAGS=--indent-margins --left-align-title --number outline --styles styles.json
 
 BUILD=build
-TEMPLATES=$(wildcard *.cftemplate)
-CFORM=$(TEMPLATES:.cftemplate=.cform)
-DOCX=$(addprefix $(BUILD)/,$(TEMPLATES:.cftemplate=.docx))
-PDF=$(addprefix $(BUILD)/,$(TEMPLATES:.cftemplate=.pdf))
-ALL=$(CFORM) $(DOCX) $(PDF)
+FORMS=arbitration base insurance order patent publicity support uptime
+MARKDOWN=$(addsuffix .md,$(FORMS))
+DOCX=$(addprefix $(BUILD)/,$(MARKDOWN:.md=.docx))
+PDF=$(addprefix $(BUILD)/,$(MARKDOWN:.md=.pdf))
 
 all: $(DOCX) $(PDF)
 
 %.pdf: %.docx
 	unoconv $<
 
-$(BUILD)/%.docx: %.cform %.options %.json blanks.json styles.json | $(COMMONFORM) $(BUILD)
-	$(COMMONFORM) render $(DOCXFLAGS) $(shell cat $*.options) --blanks blanks.json --signatures $*.json $< > $@
+$(BUILD)/%.docx: %.form.json %.values.json %.options %.signatures.json styles.json | $(CFDOCX) $(BUILD)
+	$(CFDOCX) $(DOCXFLAGS) $(shell cat $*.options) --signatures $*.signatures.json $*.form.json $*.values.json > $@
 
-$(BUILD)/%.docx: %.cform %.options blanks.json styles.json | $(COMMONFORM) $(BUILD)
-	$(COMMONFORM) render $(DOCXFLAGS) $(shell cat $*.options) --blanks blanks.json --signatures no-signatures.json $< > $@
+$(BUILD)/%.docx: %.form.json %.values.json %.options no-signatures.json styles.json | $(CFDOCX) $(BUILD)
+	$(CFDOCX) $(DOCXFLAGS) $(shell cat $*.options) --signatures no-signatures.json $*.form.json $*.values.json > $@
 
-.INTERMEDIATE: $(CFORM)
+%.values.json: %.directions.json blanks.json
+	node make-directions.js $^ > $@
 
-%.cform: %.cftemplate | $(CFTEMPLATE)
-	$(CFTEMPLATE) $< > $@
+%.parsed.json: %.md | $(CFCM)
+	$(CFCM) parse < $< > $@
+
+%.form.json: %.parsed.json | $(JSON)
+	$(JSON) form < $< > $@
+
+%.directions.json: %.parsed.json | $(JSON)
+	$(JSON) directions < $< > $@
 
 $(BUILD):
 	mkdir $(BUILD)
 
-$(CFTEMPLATE) $(COMMONFORM):
+$(CFDOCX) $(CFCM) $(JSON):
 	npm install
 
 .PHONY: clean

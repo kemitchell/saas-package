@@ -1,6 +1,6 @@
 {
-  "termination notice period": "three",
-  "breach cure period": "fourteen calendar days",
+  "Termination Notice Period": "three",
+  "Breach Cure Period": "fourteen calendar days",
 
   "Default Payment Deadline": "30 calendar days",
   "Default Late-Payment Interest": "1.5% compounding monthly",

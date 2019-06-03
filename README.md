@@ -2,6 +2,12 @@
 
 adaptable standard terms for software as a service
 
+## Be Warned!
+
+***Contracts are prescription-strength legal devices.  If you need terms for selling your service, don't be an idiot.  Hire a lawyer.  A good one will ask good questions.  There's no harm in telling them about SaaS Passport.  They may decide it fits your needs.***
+
+***Do _not_ put confidential information about you, your product, or your customers in issues or pull requests.  Do _not_ ask for legal advice on GitHub, or try to disguise requests for legal advice as general questions or hypotheticals.  Nobody dumb enough to fall for that will be a good source of advice.***
+
 ## Deal Packet
 
 A deal on SaaS Passport terms is made up of a few documents:

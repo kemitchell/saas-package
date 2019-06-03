@@ -18,8 +18,8 @@ all: $(COMMONFORMS) $(DOCX) $(PDF)
 %.pdf: %.docx
 	unoconv $<
 
-$(BUILD)/%.docx: %$(BUILD)/.form.json $(BUILD)/%.values.json configuration/%.options %.signatures.json styles.json | $(CFDOCX) $(BUILD)
-	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --signatures $*.signatures.json $(BUILD)/$*.form.json $(BUILD)/$*.values.json > $@
+$(BUILD)/%.docx: %$(BUILD)/.form.json $(BUILD)/%.values.json configuration/%.options configuration/%.signatures.json styles.json | $(CFDOCX) $(BUILD)
+	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --signatures configuration/$*.signatures.json $(BUILD)/$*.form.json $(BUILD)/$*.values.json > $@
 
 $(BUILD)/%.docx: $(BUILD)/%.form.json $(BUILD)/%.values.json configuration/%.options configuration/no-signatures.json styles.json | $(CFDOCX) $(BUILD)
 	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --signatures configuration/no-signatures.json $(BUILD)/$*.form.json $(BUILD)/$*.values.json > $@

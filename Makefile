@@ -4,7 +4,9 @@ CRITIQUE=node_modules/.bin/commonform-critique
 JSON=node_modules/.bin/json
 LINT=node_modules/.bin/commonform-lint
 
-DOCXFLAGS=--indent-margins --left-align-title --number outline --styles configuration/styles.json
+VERSION=$(shell (git diff-index --quiet HEAD && git describe --exact-match --tags 2>/dev/null | sed 's/v/Version /'))
+
+DOCXFLAGS=--edition "$(or $(VERSION),Development Draft)" --indent-margins --left-align-title --number outline --styles configuration/styles.json
 
 BUILD=build
 FORMS=arbitration base insurance order patent publicity support uptime

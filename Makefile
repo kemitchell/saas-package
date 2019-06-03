@@ -18,14 +18,11 @@ all: $(COMMONFORMS) $(DOCX) $(PDF)
 %.pdf: %.docx
 	unoconv $<
 
-$(BUILD)/%.docx: %$(BUILD)/.form.json $(BUILD)/%.values.json configuration/%.options configuration/%.signatures.json configuration/styles.json | $(CFDOCX) $(BUILD)
-	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --signatures configuration/$*.signatures.json $(BUILD)/$*.form.json $(BUILD)/$*.values.json > $@
+$(BUILD)/%.docx: %$(BUILD)/.form.json $(BUILD)/%.directions.json blanks.json configuration/%.options configuration/%.signatures.json configuration/styles.json | $(CFDOCX) $(BUILD)
+	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --directions $(BUILD)/$*.directions.json --values blanks.json --signatures configuration/$*.signatures.json $(BUILD)/$*.form.json > $@
 
-$(BUILD)/%.docx: $(BUILD)/%.form.json $(BUILD)/%.values.json configuration/%.options configuration/no-signatures.json configuration/styles.json | $(CFDOCX) $(BUILD)
-	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --signatures configuration/no-signatures.json $(BUILD)/$*.form.json $(BUILD)/$*.values.json > $@
-
-$(BUILD)/%.values.json: $(BUILD)/%.directions.json blanks.json | $(BUILD)
-	node configuration/make-directions.js $^ > $@
+$(BUILD)/%.docx: $(BUILD)/%.form.json $(BUILD)/%.directions.json blanks.json configuration/%.options configuration/no-signatures.json configuration/styles.json | $(CFDOCX) $(BUILD)
+	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --directions $(BUILD)/$*.directions.json --values blanks.json --signatures configuration/no-signatures.json $(BUILD)/$*.form.json > $@
 
 $(BUILD)/%.parsed.json: %.md | $(CFCM) $(BUILD)
 	$(CFCM) parse < $< > $@

@@ -66,7 +66,7 @@ _Provider_ agrees to host the _Documentation_ so _Customer_ personnel can read i
 
 ## Refund Prepaid Fees for Removed Features
 
-If _Provider_ changes or removes _Software Features_ from the _Service_ that were part of the _Feature Set_, substantially reducing how useful the _Service_ is to _Customer_, and _Customer_ ends this agreement in the same _Billing Period_ as the change or the next _Billing Period_, citing the change, then _Provider_ agrees to refund any _Prepaid Fees_.
+If _Provider_ changes or removes _Software Features_ from the _Service_ that were part of the _Feature Set_, substantially reducing how useful the _Service_ is to _Customer_, and _Customer_ ends this agreement in the same _Billing Period_ as the change or the next _Billing Period_, citing the change, then _Provider_ agrees to refund any _Prepaid Fees_ on _Request_.
 
 ## Keep Malicious Code Out of the Service
 

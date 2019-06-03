@@ -21,8 +21,8 @@ all: $(COMMONFORMS) $(DOCX) $(PDF)
 $(BUILD)/%.docx: %$(BUILD)/.form.json $(BUILD)/%.values.json configuration/%.options %.signatures.json styles.json | $(CFDOCX) $(BUILD)
 	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --signatures $*.signatures.json $(BUILD)/$*.form.json $(BUILD)/$*.values.json > $@
 
-$(BUILD)/%.docx: $(BUILD)/%.form.json $(BUILD)/%.values.json configuration/%.options no-signatures.json styles.json | $(CFDOCX) $(BUILD)
-	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --signatures no-signatures.json $(BUILD)/$*.form.json $(BUILD)/$*.values.json > $@
+$(BUILD)/%.docx: $(BUILD)/%.form.json $(BUILD)/%.values.json configuration/%.options configuration/no-signatures.json styles.json | $(CFDOCX) $(BUILD)
+	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --signatures configuration/no-signatures.json $(BUILD)/$*.form.json $(BUILD)/$*.values.json > $@
 
 $(BUILD)/%.values.json: $(BUILD)/%.directions.json blanks.json | $(BUILD)
 	node make-directions.js $^ > $@

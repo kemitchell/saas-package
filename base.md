@@ -464,6 +464,8 @@ Each side agrees to do its part for tax, labor, employment, and immigration law 
 
 - **Provider's Local Courts** means the courts of _Provider's Country_, as well as the courts of _Provider's National Subdivision_, if any, that are located nearest _Provider's Given Address_.
 
+- **Request** means _Notice_ of a request.
+
 - **Service** means the service identified on the _Order Form_.
 
 - **Software Features** means functions of the _Service_ described in the _Documentation_.

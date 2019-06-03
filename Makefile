@@ -48,7 +48,7 @@ clean:
 	rm -rf $(BUILD)
 
 lint: $(COMMONFORMS) | $(LINT)
-	for form in $(COMMONFORMS); do echo "\n$$form" ; $(LINT) < $$form | json -a message | sort -u ; done
+	for form in $(COMMONFORMS); do echo "\n$$form" ; $(LINT) < $$form | json -a message | sort -u | fgrep -v "is used only once" ; done
 
 critique: $(COMMONFORMS) | $(CRITIQUE)
 	for form in $(COMMONFORMS); do echo "\n$$form" ; $(CRITIQUE) < $$form | json -a message | sort -u ; done

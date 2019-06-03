@@ -25,7 +25,7 @@ $(BUILD)/%.docx: $(BUILD)/%.form.json $(BUILD)/%.values.json configuration/%.opt
 	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --signatures configuration/no-signatures.json $(BUILD)/$*.form.json $(BUILD)/$*.values.json > $@
 
 $(BUILD)/%.values.json: $(BUILD)/%.directions.json blanks.json | $(BUILD)
-	node make-directions.js $^ > $@
+	node configuration/make-directions.js $^ > $@
 
 $(BUILD)/%.parsed.json: %.md | $(CFCM) $(BUILD)
 	$(CFCM) parse < $< > $@

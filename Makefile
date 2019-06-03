@@ -13,12 +13,16 @@ FORMS=arbitration base insurance order patent publicity support uptime
 MARKDOWN=$(addsuffix .md,$(FORMS))
 DOCX=$(addprefix $(BUILD)/,$(MARKDOWN:.md=.docx))
 PDF=$(addprefix $(BUILD)/,$(MARKDOWN:.md=.pdf))
+ODT=$(addprefix $(BUILD)/,$(MARKDOWN:.md=.odt))
 COMMONFORMS=$(addprefix $(BUILD)/,$(MARKDOWN:.md=.form.json))
 
-all: $(COMMONFORMS) $(DOCX) $(PDF)
+all: $(COMMONFORMS) $(DOCX) $(ODT) $(PDF)
 
 %.pdf: %.docx
-	unoconv $<
+	unoconv -o $@ $<
+
+%.odt: %.docx
+	unoconv -o $@ $<
 
 $(BUILD)/%.docx: %$(BUILD)/.form.json $(BUILD)/%.directions.json blanks.json configuration/%.options configuration/%.signatures.json configuration/styles.json | $(CFDOCX) $(BUILD)
 	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --directions $(BUILD)/$*.directions.json --values blanks.json --signatures configuration/$*.signatures.json $(BUILD)/$*.form.json > $@

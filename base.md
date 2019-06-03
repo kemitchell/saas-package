@@ -332,6 +332,10 @@ Both sides agree that to give _Notice_ under this agreement, the side giving _No
 
 The law of the state of California will govern this agreement.
 
+## English Language
+
+Both sides agree to give _Notice_, correspond, and conduct all other business related to this agreement in the English language.
+
 ## Government Procurement
 
 The _Service_ is commercial computer software, and the _Documentation_ is commercial computer software documentation. All were developed exclusively at private expense. If _Customer_'s procurement is subject to Federal Acquisition Regulation 12.212 or Defense Federal Acquisition Regulation Supplement 227.7202, _Customer_'s rights will be only those stated in this agreement.

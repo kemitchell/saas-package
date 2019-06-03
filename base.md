@@ -132,7 +132,7 @@ _Customer_ agrees to pay all _Fees_.
 
 ## Pay on Time
 
-_Customer_ agrees to pay each _Provider_ bill as agreed on the _Order Form_. If the _Order Form_ does not say, _Customer_ agrees to pay each _Provider_ bill within `Default Payment Deadline`, with late-payment interest at `Default Late-Payment Interest` or the highest legal rate.
+_Customer_ agrees to pay each _Provider_ bill as agreed on the _Order Form_. If the _Order Form_ does not say, _Customer_ agrees to pay each _Provider_ bill within `Default Payment Deadline`.
 
 ## Use the Agreed Payment Method
 

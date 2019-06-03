@@ -144,7 +144,7 @@ _Customer_ agrees to increase the amount of each payment to _Provider_ so that _
 
 ## Pay Taxes on Fees
 
-_Customer_ agrees to pay all tax on fees under this agreement, except tax _Provider_ owes on income.
+_Customer_ agrees to pay all tax on fees under this agreement, except tax _Provider_ owes on its own income.
 
 ## Handle Tax Withholding
 

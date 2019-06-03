@@ -4,7 +4,7 @@ CRITIQUE=node_modules/.bin/commonform-critique
 JSON=node_modules/.bin/json
 LINT=node_modules/.bin/commonform-lint
 
-DOCXFLAGS=--indent-margins --left-align-title --number outline --styles styles.json
+DOCXFLAGS=--indent-margins --left-align-title --number outline --styles configuration/styles.json
 
 BUILD=build
 FORMS=arbitration base insurance order patent publicity support uptime
@@ -18,10 +18,10 @@ all: $(COMMONFORMS) $(DOCX) $(PDF)
 %.pdf: %.docx
 	unoconv $<
 
-$(BUILD)/%.docx: %$(BUILD)/.form.json $(BUILD)/%.values.json configuration/%.options configuration/%.signatures.json styles.json | $(CFDOCX) $(BUILD)
+$(BUILD)/%.docx: %$(BUILD)/.form.json $(BUILD)/%.values.json configuration/%.options configuration/%.signatures.json configuration/styles.json | $(CFDOCX) $(BUILD)
 	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --signatures configuration/$*.signatures.json $(BUILD)/$*.form.json $(BUILD)/$*.values.json > $@
 
-$(BUILD)/%.docx: $(BUILD)/%.form.json $(BUILD)/%.values.json configuration/%.options configuration/no-signatures.json styles.json | $(CFDOCX) $(BUILD)
+$(BUILD)/%.docx: $(BUILD)/%.form.json $(BUILD)/%.values.json configuration/%.options configuration/no-signatures.json configuration/styles.json | $(CFDOCX) $(BUILD)
 	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --signatures configuration/no-signatures.json $(BUILD)/$*.form.json $(BUILD)/$*.values.json > $@
 
 $(BUILD)/%.values.json: $(BUILD)/%.directions.json blanks.json | $(BUILD)

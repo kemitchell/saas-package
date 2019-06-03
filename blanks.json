@@ -9,8 +9,6 @@
 
   "Data Provision Deadline": "7 calendar days",
 
-  "Bill Deadline": "120 calendar days",
-
   "Default Uptime Commitment": "99.9%",
   "First Uptime SLA Credit Percentage": "5%",
   "Second Uptime SLA Credit Percentage": "10%",

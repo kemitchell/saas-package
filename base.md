@@ -128,7 +128,7 @@ The following _Provider_ obligations continue after this agreement ends:
 
 ## Pay Fees
 
-_Customer_ agrees to pay all _Fees_. However, unless the _Rider_ says otherwise, _Customer_ does not agree to pay any bill sent more than `Bill Deadline` late.
+_Customer_ agrees to pay all _Fees_.
 
 ## Pay on Time
 

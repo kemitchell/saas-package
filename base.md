@@ -336,6 +336,10 @@ The law of the state of California will govern this agreement.
 
 The _Service_ is commercial computer software, and the _Documentation_ is commercial computer software documentation. All were developed exclusively at private expense. If _Customer_'s procurement is subject to Federal Acquisition Regulation 12.212 or Defense Federal Acquisition Regulation Supplement 227.7202, _Customer_'s rights will be only those stated in this agreement.
 
+## Currency
+
+Unless otherwise noted, all money amounts, throughout the _Deal Packet_, are United States dollars.
+
 ## Whole Agreement
 
 Both sides intend the _Deal Packet_ and these terms as the final, complete, and only expression of their terms about use of the _Service_ and related support services. However, this agreement does not affect the terms of any separate nondisclosure or confidentiality agreement _Provider_ and _Customer_ may have.

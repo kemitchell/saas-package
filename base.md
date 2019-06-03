@@ -24,13 +24,13 @@ _Provider_ agrees to provide for itself, at its own expense, all the computers, 
 
 _Provider_ agrees not to access, use, or disclose _Customer Data_ without _Permission_, except:
 
-- Provider may access, use, and disclose _Customer Data_ as needed to provide the _Service_.
+- _Provider_ may access, use, and disclose _Customer Data_ as needed to provide the _Service_.
 
-- Provider may monitor use of the _Service_ to prevent, detect, and mitigate breach of this agreement.
+- _Provider_ may monitor use of the _Service_ to prevent, detect, and mitigate breach of this agreement.
 
-- Provider may analyze _Customer Data_ to improve the _Service_.
+- _Provider_ may analyze _Customer Data_ to improve the _Service_.
 
-- Provider may access _Customer Data_, and disclose _Customer Data_ to _Customer Personnel_, to respond to _Support Requests_.
+- _Provider_ may access _Customer Data_, and disclose _Customer Data_ to _Customer Personnel_, to respond to _Support Requests_.
 
 ## Provide Access to Customer Data
 

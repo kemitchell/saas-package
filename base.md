@@ -250,7 +250,7 @@ The terms of this agreement are separate from, and independent of, the terms of 
 
 ## Changes Provider May Make
 
-- _Provider_ may end this agreement at the end of the twelfth or any later _Billing Period_ by giving _Notice_ at least `Termination Notice Period` full _Billing Periods_ in advance.
+- _Provider_ may end this agreement at the end of the thirty-sixth or any later _Billing Period_ by giving _Notice_ at least `Termination Notice Period` full _Billing Periods_ in advance.
 
 - _Provider_ may end this agreement immediately if _Customer_ breaches this agreement and fails to cure the breach within `Breach Cure Period` of _Notice_.
 

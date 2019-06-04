@@ -4,6 +4,7 @@
     "commonform-commonmark": "^2.0.0",
     "commonform-critique": "^1.0.1",
     "commonform-docx": "^5.0.0",
+    "commonform-html": "^3.1.2",
     "commonform-lint": "^3.0.2",
     "json": "^9.0.6"
   }

@@ -1,5 +1,6 @@
 CFCM=node_modules/.bin/commonform-commonmark
 CFDOCX=node_modules/.bin/commonform-docx
+CFHTML=node_modules/.bin/commonform-html
 CRITIQUE=node_modules/.bin/commonform-critique
 JSON=node_modules/.bin/json
 LINT=node_modules/.bin/commonform-lint
@@ -14,9 +15,10 @@ MARKDOWN=$(addsuffix .md,$(FORMS))
 DOCX=$(addprefix $(BUILD)/,$(MARKDOWN:.md=.docx))
 PDF=$(addprefix $(BUILD)/,$(MARKDOWN:.md=.pdf))
 ODT=$(addprefix $(BUILD)/,$(MARKDOWN:.md=.odt))
+HTML=$(addprefix $(BUILD)/,$(MARKDOWN:.md=.html))
 COMMONFORMS=$(addprefix $(BUILD)/,$(MARKDOWN:.md=.form.json))
 
-all: $(COMMONFORMS) $(DOCX) $(ODT) $(PDF)
+all: $(COMMONFORMS) $(DOCX) $(ODT) $(HTML) $(PDF)
 
 %.pdf: %.docx
 	unoconv -o $@ $<
@@ -30,6 +32,9 @@ $(BUILD)/%.docx: %$(BUILD)/.form.json $(BUILD)/%.directions.json blanks.json con
 $(BUILD)/%.docx: $(BUILD)/%.form.json $(BUILD)/%.directions.json blanks.json configuration/%.options configuration/no-signatures.json configuration/styles.json | $(CFDOCX) $(BUILD)
 	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --directions $(BUILD)/$*.directions.json --values blanks.json --signatures configuration/no-signatures.json $(BUILD)/$*.form.json > $@
 
+$(BUILD)/%.html: $(BUILD)/%.form.json $(BUILD)/%.directions.json blanks.json configuration/%.options | $(CFHTML) $(BUILD)
+	$(CFHTML) --html5 $(shell cat configuration/$*.options) --directions $(BUILD)/$*.directions.json --values blanks.json < $(BUILD)/$*.form.json > $@
+
 $(BUILD)/%.parsed.json: %.md | $(CFCM) $(BUILD)
 	$(CFCM) parse < $< > $@
 
@@ -42,7 +47,7 @@ $(BUILD)/%.directions.json: $(BUILD)/%.parsed.json | $(JSON) $(BUILD)
 $(BUILD):
 	mkdir $(BUILD)
 
-$(CFDOCX) $(CFCM) $(JSON):
+$(CFHTML) $(CFDOCX) $(CFCM) $(JSON):
 	npm install
 
 .PHONY: clean lint critique

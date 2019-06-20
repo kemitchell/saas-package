@@ -3,7 +3,7 @@
   "devDependencies": {
     "commonform-commonmark": "^4.1.1",
     "commonform-critique": "^1.0.2",
-    "commonform-docx": "^5.0.0",
+    "commonform-docx": "^5.0.2",
     "commonform-html": "^3.1.2",
     "commonform-lint": "^3.0.2",
     "json": "^9.0.6"

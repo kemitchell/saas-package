@@ -34,7 +34,7 @@ _Provider_ agrees not to access, use, or disclose _Customer Data_ without _Permi
 
 ## Provide Access to Customer Data
 
-_Provider_ agrees to make _Customer Data_ available for _Customer_ to download, via self-service features of the _Service_, within `Data Provision Deadline` after _Notice_ from _Customer_, or both, in standardized, machine-readable data interchange formats.
+_Provider_ agrees to make _Customer Data_ available for _Customer_ to download, via self-service features of the _Service_, within `Data Provision Deadline` after _Notice_ from _Customer_, or both, in standardized, machine-readable data-interchange formats.
 
 ## Take Security Precautions
 

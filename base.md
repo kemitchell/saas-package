@@ -86,7 +86,7 @@ _Provider_ agrees to bill _Customer_ as agreed on the _Order Form_.
 
 ## Give Customer Tax-Compliance Information
 
-_Provider_ agrees to give _Customer_ information that _Customer_ needs to comply with tax laws that apply payments under the agreement.
+_Provider_ agrees to give _Customer_ information that _Customer_ needs to comply with tax laws that apply to payments under the agreement.
 
 ## Follow Customer Policies
 

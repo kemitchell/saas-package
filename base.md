@@ -54,7 +54,7 @@ _Provider_ agrees to:
 
 ## Provide Basic Support
 
-_Provider_ agrees to respond to **Support Requests** from _Customer Personnel_ via e-mail about configuration of, use of, and problems with the _Service_. _Provider_ does not agree to any specific service levels for response to _Support Requests_.
+_Provider_ agrees to respond to **Support Requests** from _Customer Personnel_ via e-mail about configuration of, use of, and problems with the _Service_. _Provider_ does not agree to any specific service levels for response to _Support Requests_.  _Provider_ may agree to provide more assurances about _Support Requests_ through an _Add-On_. 
 
 ## Enforce Rules About Providing the Service
 

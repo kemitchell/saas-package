@@ -16,7 +16,7 @@ Where documents in the _Deal Packet_ conflict, the _Rider_ takes precedence over
 
 _Provider_ agrees to run the _Service_ so that _Users_ can use the _Feature Set_, within the _Use Limits_, by accessing the _Service_ with systems meeting the requirements in the _Documentation_.
 
-## Provide All Equipment
+## Provide Hosting Equipment
 
 _Provider_ agrees to provide for itself, at its own expense, all the computers, software, and other equipment needed to provide the _Service_.
 
@@ -159,6 +159,10 @@ If the law requires withhold of taxes on _Fees_ paid under this agreement:
 ## Give Provider Tax-Compliance Information
 
 _Customer_ agrees to give _Provider_ information that _Provider_ needs to comply with tax laws that apply payments under the agreement.
+
+## Provide User Equipment
+
+_Provider_ agrees to provide for itself and its _Users_, at its own expense, all the computers, software, and other equipment needed to access the _Service_.
 
 ## Follow Rules About Use
 

@@ -82,7 +82,7 @@ _Provider_ agrees to publish notice of _Provider_'s privacy policies meeting all
 
 ## Bill Customer
 
-_Provider_ agrees to bill _Customer_ _Fees_ for the _Service_ as agreed on the _Order Form_.
+_Provider_ agrees to bill _Customer_ as agreed on the _Order Form_.
 
 ## Give Customer Tax-Compliance Information
 
@@ -94,7 +94,7 @@ _Provider_ agrees to comply with company-wide _Customer_ policies, such as antic
 
 ## Protect Customer from Liability
 
-So long as _Customer_ has paid all _Fees_ as required by this agreement:
+So long as _Customer_ has paid all fees as required by this agreement:
 
 ### Indemnify Customer
 
@@ -128,7 +128,7 @@ The following _Provider_ obligations continue after this agreement ends:
 
 ## Pay Fees
 
-_Customer_ agrees to pay all _Fees_.
+_Customer_ agrees to pay all fees agreed on the _Order Form_.
 
 ## Pay on Time
 
@@ -136,7 +136,7 @@ _Customer_ agrees to pay each _Provider_ bill as agreed on the _Order Form_. If 
 
 ## Use the Agreed Payment Method
 
-_Customer_ agrees to pay all _Fees_ under this agreement via the payment method agreed on the _Order Form_. If the _Order Form_ does not say, _Customer_ agrees to pay via bank-to-bank transfer, such as FedWire, ACH, SEPA, or SWIFT, if possible, and otherwise via common electronic payment system, such as by credit card or PayPal.
+_Customer_ agrees to pay all fees under this agreement via the payment method agreed on the _Order Form_. If the _Order Form_ does not say, _Customer_ agrees to pay via bank-to-bank transfer, such as FedWire, ACH, SEPA, or SWIFT, if possible, and otherwise via common electronic payment system, such as by credit card or PayPal.
 
 ## Cover Payment Method Fees
 
@@ -148,7 +148,7 @@ _Customer_ agrees to pay all tax on fees under this agreement, except tax _Provi
 
 ## Handle Tax Withholding
 
-If the law requires withhold of taxes on _Fees_ paid under this agreement:
+If the law requires withhold of taxes on fees paid under this agreement:
 
 - _Customer_ agrees to make the required tax withholding payments for _Provider_ by deducting the right amounts from payments to _Provider_ and paying them to the proper tax authorities.
 
@@ -248,7 +248,7 @@ The terms of this agreement are separate from, and independent of, the terms of 
 
 - _Customer_ may end this agreement at the end of a _Billing Period_ by giving _Notice_ at least one full _Billing Period_ in advance.
 
-- If the _Order Form_ describes a pricing structure for higher _Use Limits_, _Customer_ may increase its _Use Limits_ within that pricing structure at any time, by _Notice_. _Customer_ increases to _Use Limits_ take effect as soon as _Customer_ pays any added _Fees_.
+- If the _Order Form_ describes a pricing structure for higher _Use Limits_, _Customer_ may increase its _Use Limits_ within that pricing structure at any time, by _Notice_. _Customer_ increases to _Use Limits_ take effect as soon as _Customer_ pays any added fees.
 
 - _Customer_ may end this agreement by _Notice_ if _Provider_ becomes _Insolvent_.
 
@@ -296,7 +296,7 @@ Neither side will be liable for any failure or delay in meeting any service leve
 
 ### Damages Cap
 
-!!! Subject to [Damages Limit Exceptions](#Damages_Limit_Exceptions), neither side's total liability for breach of this agreement will exceed the amount of _Fees_ _Provider_ received from _Customer_ during the twelve months before the first claim is filed. This limit applies even if the side liable is advised that the other may suffer damages, and even if _Customer_ paid no fees at all.
+!!! Subject to [Damages Limit Exceptions](#Damages_Limit_Exceptions), neither side's total liability for breach of this agreement will exceed the amount of fees _Provider_ received from _Customer_ under this agreement during the twelve months before the first claim is filed. This limit applies even if the side liable is advised that the other may suffer damages, and even if _Customer_ paid no fees at all.
 
 ### Unforeseen Damages
 
@@ -456,7 +456,7 @@ Each side agrees to do its part for tax, labor, employment, and immigration law 
 
 - **Permitted Use of the Service** means _Customer_'s use of the _Service_, other than _Use of the Service at Customer's Own Risk_.
 
-- **Prepaid Fees** means _Fees_ _Customer_ prepaid for _Billing Periods_ yet to begin.
+- **Prepaid Fees** means fees _Customer_ prepaid for _Billing Periods_ yet to begin.
 
 - **Provider Personnel** means _Provider_ personnel involved in the _Service_ to _Customer_ under this agreement, be they employees or independent contractors or _Provider_ or any _Provider_ subsidiary.
 
@@ -476,7 +476,7 @@ Each side agrees to do its part for tax, labor, employment, and immigration law 
 
 - **Special Data Regulations** means laws and regulations that impose special requirements on the collection, storage, processing, or transmission of particular kinds of data about individuals. The Gramm-Leach-Bliley Act, Health Insurance Portability and Accountability Act, Children's Online Privacy Protection Act, and Fair Credit Reporting Act are some _Special Data Regulations_. Laws that apply to data just because they may identify specific individuals are not _Special Data Regulations_.
 
-- **Standard License** means a nonexclusive license during the term of the agreement, without rights to sublicense, that is conditional on payment of all _Fees_ as required by this agreement and limited by the _Use Limits_.
+- **Standard License** means a nonexclusive license during the term of the agreement, without rights to sublicense, that is conditional on payment of all fees as required by this agreement and limited by the _Use Limits_.
 
 - **Use of the Service at Customer's Own Risk** means:
 

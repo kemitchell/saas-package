@@ -26,14 +26,14 @@ all: $(COMMONFORMS) $(DOCX) $(ODT) $(HTML) $(PDF)
 %.odt: %.docx
 	unoconv -o $@ $<
 
-$(BUILD)/%.docx: %$(BUILD)/.form.json $(BUILD)/%.directions.json blanks.json configuration/%.options configuration/%.signatures.json configuration/styles.json | $(CFDOCX) $(BUILD)
-	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --directions $(BUILD)/$*.directions.json --values blanks.json --signatures configuration/$*.signatures.json $(BUILD)/$*.form.json > $@
+$(BUILD)/%.docx: %$(BUILD)/.form.json $(BUILD)/%.directions.json configuration/blanks.json configuration/%.options configuration/%.signatures.json configuration/styles.json | $(CFDOCX) $(BUILD)
+	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --directions $(BUILD)/$*.directions.json --values configuration/blanks.json --signatures configuration/$*.signatures.json $(BUILD)/$*.form.json > $@
 
-$(BUILD)/%.docx: $(BUILD)/%.form.json $(BUILD)/%.directions.json blanks.json configuration/%.options configuration/no-signatures.json configuration/styles.json | $(CFDOCX) $(BUILD)
-	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --directions $(BUILD)/$*.directions.json --values blanks.json --signatures configuration/no-signatures.json $(BUILD)/$*.form.json > $@
+$(BUILD)/%.docx: $(BUILD)/%.form.json $(BUILD)/%.directions.json configuration/blanks.json configuration/%.options configuration/no-signatures.json configuration/styles.json | $(CFDOCX) $(BUILD)
+	$(CFDOCX) $(DOCXFLAGS) $(shell cat configuration/$*.options) --directions $(BUILD)/$*.directions.json --values configuration/blanks.json --signatures configuration/no-signatures.json $(BUILD)/$*.form.json > $@
 
-$(BUILD)/%.html: $(BUILD)/%.form.json $(BUILD)/%.directions.json blanks.json configuration/%.options | $(CFHTML) $(BUILD)
-	$(CFHTML) --html5 $(shell cat configuration/$*.options) --directions $(BUILD)/$*.directions.json --values blanks.json < $(BUILD)/$*.form.json > $@
+$(BUILD)/%.html: $(BUILD)/%.form.json $(BUILD)/%.directions.json configuration/blanks.json configuration/%.options | $(CFHTML) $(BUILD)
+	$(CFHTML) --html5 $(shell cat configuration/$*.options) --directions $(BUILD)/$*.directions.json --values configuration/blanks.json < $(BUILD)/$*.form.json > $@
 
 $(BUILD)/%.parsed.json: %.md | $(CFCM) $(BUILD)
 	$(CFCM) parse < $< > $@

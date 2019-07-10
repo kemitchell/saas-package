@@ -396,7 +396,7 @@ Each side agrees to do its part for tax, labor, employment, and immigration law 
 
 - **Access Credentials** means a user name and password, license key, or other secret that affords use of the _Service_ or systems providing the _Service_.
 
-- **Account Dashboard** means the account management section of the administration page of the _Service_.
+- **Account Dashboard** means the account management section of the administration interface of the _Service_.
 
 - **Billing Period** means a successive, month-long period. The first _Billing Period_ starts on the date of this agreement. The plural is **Billing Periods**.
 

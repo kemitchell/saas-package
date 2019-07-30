@@ -50,7 +50,7 @@ $(BUILD):
 $(CFHTML) $(CFDOCX) $(CFCM) $(JSON):
 	npm install
 
-.PHONY: clean lint critique
+.PHONY: clean lint critique docker
 
 clean:
 	rm -rf $(BUILD)
@@ -60,3 +60,9 @@ lint: $(COMMONFORMS) | $(LINT)
 
 critique: $(COMMONFORMS) | $(CRITIQUE)
 	for form in $(COMMONFORMS); do echo "\n$$form" ; $(CRITIQUE) < $$form | json -a message | sort -u ; done
+
+docker:
+	docker build -t saas-passport .
+	docker run --name saas-passport saas-passport
+	docker cp saas-passport:/workdir/$(BUILD) .
+	docker rm saas-passport

@@ -61,3 +61,7 @@ _Provider_ agrees that carrying insurance does not excuse or limit _Provider_'s 
 # Definitions
 
 The following terms mean the same in this add-on as in the base terms: **Customer**, **Customer Personnel**, **Provider**.
+
+# Survival
+
+_Provider_ agrees to continue to meet [Carry Insurance](#Carry_Insurance) for `Insurance Surival` after the agreement ends.
